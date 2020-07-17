@@ -1,4 +1,5 @@
-### Hi there 👋
+### おら、フロントエンドが好きだ！
+I prefer frontend!
 
 <!--
 **MxShun/MxShun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
