@@ -19,9 +19,7 @@ I prefer frontend!
 
 <br>
 
-<a href="https://www.buymeacoffee.com/gbraad" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-<center><a href="https://www.buymeacoffee.com/MxShun" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="#buymeacoffee" style="height: 51px !important;width: 217px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;border-radius: 10px !important;"></a></center>
+<a href="https://www.buymeacoffee.com/MxShun" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="#buymeacoffee" style="height: 51px; width: 217px; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5); border-radius: 10px;"></a>
 
 
 <!--
