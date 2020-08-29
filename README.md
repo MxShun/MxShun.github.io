@@ -7,7 +7,7 @@ I prefer frontend!
 
 ## Certifications
 
-- 応用情報技術者 Applied Information Technology Engineer Examination
+- 応用情報技術者 Applied Information Technology Engineer
 
 ## Posts
 
