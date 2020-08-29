@@ -3,7 +3,7 @@ I prefer frontend!
 
 ## Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=MxShun&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&hide=stars,contribs&icon_color=79D6B5&title_color=79D6B5) ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MxShun&layout=compact&hide_title=true&hide=ASP)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=MxShun&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&hide=stars,contribs&icon_color=FFDD00&title_color=FFDD00) ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MxShun&layout=compact&hide_title=true&hide=ASP)
 
 ## Certifications
 
@@ -19,8 +19,7 @@ I prefer frontend!
 
 <br>
 
-<a href="https://www.buymeacoffee.com/MxShun" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="#buymeacoffee" style="height: 51px; width: 217px; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5); border-radius: 10px;"></a>
-
+[![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg) #buymeacoffee](https://www.buymeacoffee.com/MxShun)
 
 <!--
 **MxShun/MxShun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
