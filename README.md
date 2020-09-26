@@ -1,5 +1,5 @@
 ### おら、フロントエンドが好きだ！
-I prefer frontend!
+I prefer the frontend!
 
 ## Stats
 
@@ -8,6 +8,7 @@ I prefer frontend!
 ## Certifications
 
 - 応用情報技術者 Applied Information Technology Engineer
+- Oracle Certified Java Programmer, Silver SE 8
 
 ## Posts
 
