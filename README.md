@@ -10,7 +10,7 @@ I prefer the frontend!
 - 応用情報技術者 Applied Information Technology Engineer
 - Oracle Certified Java Programmer, Silver SE 8
 - Oracle Certified Java Programmer, Gold SE 8
-- 日本安全食料料理協会 コーヒーソムリエ
+- 日本安全食料料理協会 コーヒーソムリエ Coffee sommelier
 
 
 ## Posts
