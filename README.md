@@ -1,4 +1,5 @@
 ### おら、フロントエンドが好きだ！
+
 I prefer the frontend!
 
 ## Stats
@@ -16,17 +17,16 @@ I prefer the frontend!
 
 ## Presentations
 
-- 18 Feb,. 2021 [新卒エンジニアがBacklogで業務効率化しました！](https://speakerdeck.com/askul/jbugdong-jing-number-20-sokogazhi-ritai-backloghuo-yong-shu) in [JBUG東京 #20 〜そこが知りたい！Backlog活用術〜](https://jbug.connpass.com/event/202013/)
+- 25/03/2021 [10 分で「エラスティックリーダーシップ」をアウトプット](https://speakerdeck.com/askul/10fen-te-erasuteitukuritasituhu-woautohututo) in [AStudy+](https://askul.connpass.com/event/204742/)
+- 18/02/2021 [新卒エンジニアが Backlog で業務効率化しました！](https://speakerdeck.com/askul/jbugdong-jing-number-20-sokogazhi-ritai-backloghuo-yong-shu) in [JBUG 東京 #20 〜そこが知りたい！Backlog 活用術〜](https://jbug.connpass.com/event/202013/)
 
 ## Posts
 
--  6 Mar., 2021 [Professional Scrum Master に合格したので体験記 - Qiita](https://qiita.com/MxShun/items/9adb7624a453c5b84c3d)
--  5 Mar., 2021 [新人エンジニア(新卒)が語るアスクルの魅力 - ASKUL Engineering BLOG](https://tech.askul.co.jp/entry/2021/03/05/110000)
--  8 Feb., 2021 [新卒１年生のJavaGold合格体験記 - Qiita](新卒１年生のJavaGold合格体験記)
-- 24 Dec., 2020 [生産性向上のためにやった環境整備７選 - Qiita](https://qiita.com/MxShun/items/f0853221decb088f4fb5) for [生産性向上のための環境整備2020 Lenovo Advent Calendar 2020](https://qiita.com/advent-calendar/2020/lenovo_env)
--  3 May,  2020 [Messaging APIとGASを使ったLINE Botでグループチャットの活発化 - Qiita](https://qiita.com/MxShun/items/7a563a795d41cdc0f1dc)
-- 28 Aug., 2020 [ウェブバーチャル花火してみた - ASKUL Engineering BLOG](https://tech.askul.co.jp/entry/2020/08/28/180000)
-- 17 Jul., 2020 [新卒入社3カ月目にしてプロジェクトリーダーをした話。 - Yahoo! JAPAN Tech Blog](https://techblog.yahoo.co.jp/entry/2020071730014127/)
+- 05/03/2021 [新人エンジニア(新卒)が語るアスクルの魅力 - ASKUL Engineering BLOG](https://tech.askul.co.jp/entry/2021/03/05/110000)
+- 24/12/2020 [生産性向上のためにやった環境整備７選 - Qiita](https://qiita.com/MxShun/items/f0853221decb088f4fb5) for [生産性向上のための環境整備 2020 Lenovo Advent Calendar 2020](https://qiita.com/advent-calendar/2020/lenovo_env)
+- 28/08/2020 [ウェブバーチャル花火してみた - ASKUL Engineering BLOG](https://tech.askul.co.jp/entry/2020/08/28/180000)
+- 17/07/2020 [新卒入社 3 カ月目にしてプロジェクトリーダーをした話。 - Yahoo! JAPAN Tech Blog](https://techblog.yahoo.co.jp/entry/2020071730014127/)
+- 03/05/2020 [Messaging API と GAS を使った LINE Bot でグループチャットの活発化 - Qiita](https://qiita.com/MxShun/items/7a563a795d41cdc0f1dc)
 
 <br>
 
