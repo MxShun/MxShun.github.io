@@ -4,7 +4,7 @@ I prefer the frontend!
 
 ## Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=MxShun&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&hide=stars,issues&icon_color=FFDD00&title_color=FFDD00) ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MxShun&layout=compact&hide_title=true&hide=ASP)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=MxShun&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&hide=issues&icon_color=FFDD00&title_color=FFDD00) ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MxShun&layout=compact&hide_title=true&hide=ASP)
 
 ## Certifications
 
