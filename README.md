@@ -17,6 +17,7 @@ I prefer the frontend!
 
 ## Presentations
 
+- 07/07/2021 [チームでリーダブルコードを実現するには？](https://speakerdeck.com/askul/timuderidaburukodowoshi-xian-suruniha) in [【LT満員御礼！】リーダブルコード LT会 - vol.2 #readablelt](https://rakus.connpass.com/event/215225/)
 - 25/03/2021 [10 分で「エラスティックリーダーシップ」をアウトプット](https://speakerdeck.com/askul/10fen-te-erasuteitukuritasituhu-woautohututo) in [AStudy+](https://askul.connpass.com/event/204742/)
 - 18/02/2021 [新卒エンジニアが Backlog で業務効率化しました！](https://speakerdeck.com/askul/jbugdong-jing-number-20-sokogazhi-ritai-backloghuo-yong-shu) in [JBUG 東京 #20 〜そこが知りたい！Backlog 活用術〜](https://jbug.connpass.com/event/202013/)
 
