@@ -13,6 +13,7 @@ I prefer the frontend!
 - Oracle Certified Java Programmer, Silver SE 8
 - Oracle Certified Java Programmer, Gold SE 8
 - Professional Scrum Master I
+- AWS Certified Solutions Architect - Associate
 - 日本安全食料料理協会コーヒーソムリエ Coffee Sommelier
 
 ## Presentations
