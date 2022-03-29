@@ -26,8 +26,8 @@ I prefer the frontend!
 
 ## Posts
 
-- 02/12/2021 [Kotlin で DX がめちゃくちゃ改善されました](https://tech.askul.co.jp/entry/2021/12/02/090000)
-- 06/03/2021 [Professional Scrum Master に合格したので体験記](https://qiita.com/MxShun/items/9adb7624a453c5b84c3d)
+- 02/12/2021 [Kotlin で DX がめちゃくちゃ改善されました - ASKUL Engineering BLOG](https://tech.askul.co.jp/entry/2021/12/02/090000)
+- 06/03/2021 [Professional Scrum Master に合格したので体験記 - Qiita](https://qiita.com/MxShun/items/9adb7624a453c5b84c3d)
 - 05/03/2021 [新人エンジニア(新卒)が語るアスクルの魅力 - ASKUL Engineering BLOG](https://tech.askul.co.jp/entry/2021/03/05/110000)
 - 17/07/2020 [新卒入社 3 カ月目にしてプロジェクトリーダーをした話。 - Yahoo! JAPAN Tech Blog](https://techblog.yahoo.co.jp/entry/2020071730014127/)
 - 03/05/2020 [Messaging API と GAS を使った LINE Bot でグループチャットの活発化 - Qiita](https://qiita.com/MxShun/items/7a563a795d41cdc0f1dc)
