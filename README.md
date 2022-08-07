@@ -16,6 +16,7 @@ I prefer the frontend!
 - AWS Certified Solutions Architect - Associate
 - AWS Certified Developer - Associate
 - 日本安全食料料理協会コーヒーソムリエ Coffee Sommelier
+- 食品衛生責任者 Food Sanitation Manager
 
 ## Presentations
 
