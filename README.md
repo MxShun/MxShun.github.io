@@ -1,12 +1,8 @@
-### おら、フロントエンドが好きだ！
-
-I prefer the frontend!
-
 ## Stats
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=MxShun&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&hide=issues&icon_color=FFDD00&title_color=FFDD00) ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MxShun&layout=compact&hide_title=true&hide=ASP)
 
-## Certifications
+## 資格 Certifications
 
 - 基本情報技術者 Fundamental Information Technology Engineer
 - 応用情報技術者 Applied Information Technology Engineer
@@ -18,7 +14,7 @@ I prefer the frontend!
 - 日本安全食料料理協会コーヒーソムリエ Coffee Sommelier
 - 食品衛生責任者 Food Sanitation Manager
 
-## Presentations
+## 登壇 Presentations
 
 - 11/05/2022 パネルディスカッション in [なぜKotlinで開発するのか？Kotlinの魅力について語る会](https://moneyforward.connpass.com/event/242696/)
 - 24/03/2022 [EditorConfigで導くコードの「美しさ」](https://speakerdeck.com/askul/editorconfigdedao-kukodofalse-mei-sisa) in [【LT残2枠！】リーダブルコード LT会 - vol.3 #readablelt](https://rakus.connpass.com/event/238395/)
@@ -26,7 +22,7 @@ I prefer the frontend!
 - 25/03/2021 [10 分で「エラスティックリーダーシップ」をアウトプット](https://speakerdeck.com/askul/10fen-te-erasuteitukuritasituhu-woautohututo) in [AStudy+](https://askul.connpass.com/event/204742/)
 - 18/02/2021 [新卒エンジニアが Backlog で業務効率化しました！](https://speakerdeck.com/askul/jbugdong-jing-number-20-sokogazhi-ritai-backloghuo-yong-shu) in [JBUG 東京 #20 〜そこが知りたい！Backlog 活用術〜](https://jbug.connpass.com/event/202013/)
 
-## Posts
+## 記事 Posts
 
 - 08/04/2022 [Kotlin の emptyList.all { false } が true になるということ - ASKUL Engineering BLOG](https://tech.askul.co.jp/entry/2022/04/08/090000)
 - 02/12/2021 [Kotlin で DX がめちゃくちゃ改善されました - ASKUL Engineering BLOG](https://tech.askul.co.jp/entry/2021/12/02/090000)
