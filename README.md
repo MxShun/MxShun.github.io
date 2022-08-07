@@ -20,6 +20,7 @@ I prefer the frontend!
 
 ## Presentations
 
+- 11/05/2022 パネルディスカッション in [なぜKotlinで開発するのか？Kotlinの魅力について語る会](https://moneyforward.connpass.com/event/242696/)
 - 24/03/2022 [EditorConfigで導くコードの「美しさ」](https://speakerdeck.com/askul/editorconfigdedao-kukodofalse-mei-sisa) in [【LT残2枠！】リーダブルコード LT会 - vol.3 #readablelt](https://rakus.connpass.com/event/238395/)
 - 07/07/2021 [チームでリーダブルコードを実現するには？](https://speakerdeck.com/askul/timuderidaburukodowoshi-xian-suruniha) in [【LT満員御礼！】リーダブルコード LT会 - vol.2 #readablelt](https://rakus.connpass.com/event/215225/)
 - 25/03/2021 [10 分で「エラスティックリーダーシップ」をアウトプット](https://speakerdeck.com/askul/10fen-te-erasuteitukuritasituhu-woautohututo) in [AStudy+](https://askul.connpass.com/event/204742/)
