@@ -25,7 +25,7 @@
 
 ## 記事 Posts
 
-- 23/12/2022 [私がやった Amazon S3 コストカット全ステップ](https://developers.cyberagent.co.jp/blog/archives/38950/)
+- 23/12/2022 [私がやった Amazon S3 コストカット全ステップ - CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/38950/)
 - 08/04/2022 [Kotlin の emptyList.all { false } が true になるということ - ASKUL Engineering BLOG](https://tech.askul.co.jp/entry/2022/04/08/090000)
 - 02/12/2021 [Kotlin で DX がめちゃくちゃ改善されました - ASKUL Engineering BLOG](https://tech.askul.co.jp/entry/2021/12/02/090000)
 - 05/03/2021 [新人エンジニア(新卒)が語るアスクルの魅力 - ASKUL Engineering BLOG](https://tech.askul.co.jp/entry/2021/03/05/110000)
