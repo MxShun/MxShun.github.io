@@ -1,6 +1,6 @@
 ## Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=MxShun&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&hide=issues&cache_seconds=86400&theme=solarized-dark) ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MxShun&layout=compact&hide_title=true&hide=ASP&theme=solarized-dark)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=MxShun&theme=solarized-dark&cache_seconds=86400&hide_title=true&card_width=400&show_icons=true&include_all_commits=true&count_private=true) ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MxShun&theme=solarized-dark&cache_seconds=86400&hide=ASP&hide_title=true&layout=compact&card_width=350&langs_count=10)
 
 ## 資格 Certifications
 
