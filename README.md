@@ -17,6 +17,7 @@
 
 ## 登壇 Presentations
 
+- 24/08/2023 パネルディスカッション in [エンジニア同士のぶっちゃけトーク┃〜AI事業本部で気づいた、理想のキャリアが実現できる環境とは？～](https://cyberagent.connpass.com/event/292872/)
 - 11/05/2022 パネルディスカッション in [なぜKotlinで開発するのか？Kotlinの魅力について語る会](https://moneyforward.connpass.com/event/242696/)
 - 24/03/2022 [EditorConfigで導くコードの「美しさ」](https://speakerdeck.com/askul/editorconfigdedao-kukodofalse-mei-sisa) in [【LT残2枠！】リーダブルコード LT会 - vol.3 #readablelt](https://rakus.connpass.com/event/238395/)
 - 07/07/2021 [チームでリーダブルコードを実現するには？](https://speakerdeck.com/askul/timuderidaburukodowoshi-xian-suruniha) in [【LT満員御礼！】リーダブルコード LT会 - vol.2 #readablelt](https://rakus.connpass.com/event/215225/)
