@@ -62,7 +62,7 @@ export default function Home() {
         <div className="relative z-20 flex items-center">
           <div className="container relative flex flex-col items-center justify-between px-6 py-4 mx-auto">
             <div className="flex flex-col">
-              <img src="/images/person/11.webp" className="mx-auto rounded-full w-28"/>
+              <img src="/mxshun.jpg" className="mx-auto rounded-full w-28"/>
               <p className="my-6 text-3xl text-center dark:text-white">
                 Hi, I&#x27;m Charlie 🤘
               </p>
