@@ -8,9 +8,10 @@
 - 応用情報技術者 Applied Information Technology Engineer
 - Oracle Certified Java Programmer, Silver SE 8
 - Oracle Certified Java Programmer, Gold SE 8
-- Professional Scrum Master I
 - AWS Certified Solutions Architect - Associate
 - AWS Certified Developer - Associate
+- Certified ScrumMaster
+- Professional Scrum Master I
 - 日本安全食料料理協会コーヒーソムリエ Coffee Sommelier
 - 食品衛生責任者 Food Sanitation Manager
 - STARTS Open Water Diver
