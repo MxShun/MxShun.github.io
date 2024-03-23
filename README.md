@@ -10,6 +10,7 @@
 - Oracle Certified Java Programmer, Gold SE 8
 - AWS Certified Solutions Architect - Associate
 - AWS Certified Developer - Associate
+- AWS Certified SysOps Administrator - Associate
 - Certified ScrumMaster
 - Professional Scrum Master I
 - 日本安全食料料理協会コーヒーソムリエ Coffee Sommelier
