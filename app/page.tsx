@@ -1,10 +1,10 @@
 export default function Home() {
   return (
-      <main className="relative h-screen overflow-hidden font-mono bg-white dark:bg-gray-800">
+      <main className="relative h-screen overflow-hidden bg-solarized-light dark:bg-solarized-dark">
         <header className="z-30 flex items-center w-full h-24 sm:h-32">
           <div className="container flex items-center justify-between px-6 mx-auto">
-            <div className="flex items-center text-lg font-black text-gray-800 dark:text-white">
-              <a href="https://twitter.com/MxShun" rel="noopener noreferrer" target="_blank" className="flex items-center hover:text-black">
+            <div className="text-lg text-solarized-light dark:text-solarized-dark">
+              <a href="https://x.com/MxShun" rel="noopener noreferrer" target="_blank" className="flex items-center hover:text-solarized-hover">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <g>
                     <path
@@ -15,17 +15,17 @@ export default function Home() {
               </a>
             </div>
             <div className="flex items-center">
-              <nav className="items-center hidden text-lg text-gray-800 font-sen dark:text-white lg:flex">
-                <a href="#" className="flex px-6 py-2 hover:text-black">
+              <nav className="hidden text-lg text-solarized-light dark:text-solarized-dark lg:flex">
+                <a href="#" className="flex px-6 py-2 hover:text-solarized-hover">
                   Works
                 </a>
-                <a href="#" className="flex px-6 py-2 hover:text-black">
+                <a href="#" className="flex px-6 py-2 hover:text-solarized-hover">
                   Resume
                 </a>
-                <a href="#" className="flex px-6 py-2 hover:text-black">
+                <a href="#" className="flex px-6 py-2 hover:text-solarized-hover">
                   Services
                 </a>
-                <a href="#" className="flex px-6 py-2 hover:text-black">
+                <a href="#" className="flex px-6 py-2 hover:text-solarized-hover">
                   Contact
                 </a>
               </nav>
@@ -41,21 +41,17 @@ export default function Home() {
           </div>
         </header>
         <div className="relative z-20 flex items-center">
-          <div className="container relative flex flex-col items-center justify-between px-6 py-4 mx-auto">
-            <div className="flex flex-col">
-              <img src="/mxshun.jpg" className="mx-auto rounded-full w-28"/>
-              <p className="my-6 text-3xl text-center dark:text-white">
-                Hi, I&#x27;m Charlie 🤘
+          <div className="container flex-col justify-between px-6 py-24 mx-auto">
+            <div className="text-center text-solarized-light dark:text-solarized-dark">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/mxshun.jpg" className="mx-auto rounded-full w-28" alt="MxShun"/>
+              <p className="my-6 text-3xl font-bold">
+                しゅん＠MxShun
               </p>
-              <h2 className="max-w-3xl py-2 mx-auto text-5xl font-bold text-center text-gray-800 md:text-6xl dark:text-white">
-                Building digital products, brands, and experiences.
+              <h2 className="max-w-5xl py-12 mx-auto text-lg">
+                サイバーエージェントという会社で PM / スクラムマスター / Webバックエンドエンジニア をしています 💻<br/>
+                Go (echo) / Kotlin (Spring) / AWS が基本スキルセット 🐧 私個人へのご依頼等は X DM まで 📧
               </h2>
-              <div className="flex items-center justify-center mt-4">
-                <a href="#"
-                   className="px-4 py-2 my-2 text-gray-800 uppercase bg-transparent border-2 border-gray-800 md:mt-16 dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 dark:text-white hover:bg-gray-800 hover:text-white text-md">
-                  CONNECT WITH ME
-                </a>
-              </div>
             </div>
           </div>
         </div>
