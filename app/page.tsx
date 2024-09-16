@@ -16,17 +16,23 @@ export default function Home() {
             </div>
             <div className="flex items-center">
               <nav className="hidden text-lg text-solarized-light dark:text-solarized-dark lg:flex">
-                <a href="#" className="flex px-6 py-2 hover:text-solarized-hover">
-                  Works
+                <a href="/" className="flex px-6 py-2 text-solarized-active">
+                  ホーム
                 </a>
-                <a href="#" className="flex px-6 py-2 hover:text-solarized-hover">
-                  Resume
+                <a href="/bio" className="flex px-6 py-2 hover:text-solarized-hover">
+                  経歴
                 </a>
-                <a href="#" className="flex px-6 py-2 hover:text-solarized-hover">
-                  Services
+                <a href="/honor" className="flex px-6 py-2 hover:text-solarized-hover">
+                  資格
                 </a>
-                <a href="#" className="flex px-6 py-2 hover:text-solarized-hover">
-                  Contact
+                <a href="/talks" className="flex px-6 py-2 hover:text-solarized-hover">
+                  登壇
+                </a>
+                <a href="/posts" className="flex px-6 py-2 hover:text-solarized-hover">
+                  記事
+                </a>
+                <a href="/guitars" className="flex px-6 py-2 hover:text-solarized-hover">
+                  ギター
                 </a>
               </nav>
               <button className="flex flex-col ml-4 lg:hidden">

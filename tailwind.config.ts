@@ -22,6 +22,7 @@ const config: Config = {
         'solarized-light': '#002B36'
       },
       colors: {
+        'solarized-active': '#268BD2',
         'solarized-hover': '#268BD2',
       }
     },
