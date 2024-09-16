@@ -14,7 +14,7 @@ const Header: React.FC<HeaderProps> = ({ activePage }) => {
   };
 
   const getNavClass = (href: string) =>
-    `flex px-6 py-2 ${activePage === href ? "text-solarized-active" : "hover:text-solarized-hover"}`;
+    `flex px-6 py-2 ${activePage === href ? "text-solarized-cyan" : "hover:text-solarized-cyan"}`;
 
   return (
     <header className="z-30 flex items-center w-full h-24 sm:h-32">
@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ activePage }) => {
             href="https://x.com/MxShun"
             rel="noopener noreferrer"
             target="_blank"
-            className="flex items-center hover:text-solarized-hover"
+            className="flex items-center hover:text-solarized-cyan"
           >
             <svg
               width="18"
@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = ({ activePage }) => {
         </div>
         <div className="flex items-center">
           <nav
-            className={`lg:flex items-center ${isMenuOpen ? "fixed z-50 top-0 left-0 w-full h-full p-4 bg-solarized-light-menu/80 dark:bg-solarized-dark-menu/80" : "hidden"} text-lg text-solarized-light dark:text-solarized-dark`}
+            className={`lg:flex items-center ${isMenuOpen ? "fixed z-50 top-0 left-0 w-full h-full p-4 bg-solarized-light-deep/80 dark:bg-solarized-dark-deep/80" : "hidden"} text-lg text-solarized-light dark:text-solarized-dark`}
           >
             <a href="/" className={getNavClass("/")}>
               ホーム

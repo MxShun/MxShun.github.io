@@ -15,17 +15,16 @@ const config: Config = {
       },
       backgroundColor: {
         "solarized-dark": "#073642",
-        "solarized-dark-menu": "#002b36",
+        "solarized-dark-deep": "#002b36",
         "solarized-light": "#FDF6E3",
-        "solarized-light-menu": "#EEE8D5",
+        "solarized-light-deep": "#EEE8D5",
       },
       textColor: {
         "solarized-dark": "#FDF6E3",
         "solarized-light": "#002B36",
       },
       colors: {
-        "solarized-active": "#268BD2",
-        "solarized-hover": "#268BD2",
+        "solarized-cyan": "#2AA198",
       },
     },
   },

@@ -2,11 +2,11 @@ import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <main className="relative h-screen overflow-hidden bg-solarized-light dark:bg-solarized-dark">
+    <main className="relative h-screen overflow-hidden bg-solarized-light dark:bg-solarized-dark text-solarized-light dark:text-solarized-dark">
       <Header activePage="/" />
-      <div className="relative z-20 flex items-center">
-        <div className="container flex-col justify-between px-6 py-24 mx-auto">
-          <div className="text-center text-solarized-light dark:text-solarized-dark">
+      <div className="relative z-20 flex h-full items-center">
+        <div className="container flex-col justify-between h-2/3 mx-auto">
+          <div className="text-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/mxshun.jpg"
