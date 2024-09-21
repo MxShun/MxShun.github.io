@@ -15,7 +15,7 @@ export default function Bio() {
               2
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24  bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://www.cyberagent.co.jp/favicon.ico"
@@ -76,7 +76,7 @@ export default function Bio() {
               1
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://www.askul.co.jp/favicon.ico"
@@ -125,7 +125,7 @@ export default function Bio() {
               0
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24  bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://www.sendai-nct.ac.jp/favicon.ico"
