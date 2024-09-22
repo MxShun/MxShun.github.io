@@ -7,7 +7,6 @@ export default function Home() {
       <div className="relative z-20 flex h-full items-center">
         <div className="container flex-col justify-between h-2/3 mx-auto">
           <div className="text-center">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/mxshun.jpg"
               className="mx-auto rounded-full w-28"

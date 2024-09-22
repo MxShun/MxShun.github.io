@@ -1,11 +1,11 @@
-import Header from "@/components/Header";
 import React from "react";
+import Header from "@/components/Header";
 
 export default function Bio() {
   return (
     <main className="relative h-screen overflow-y-auto bg-solarized-light dark:bg-solarized-dark text-solarized-light dark:text-solarized-dark">
       <Header activePage="/bio" />
-      <section className="">
+      <section>
         <div className="container px-5 py-5 mx-auto flex flex-wrap">
           <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -16,7 +16,6 @@ export default function Bio() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://www.cyberagent.co.jp/favicon.ico"
                   className="mx-auto rounded-full w-28"
@@ -77,7 +76,6 @@ export default function Bio() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://www.askul.co.jp/favicon.ico"
                   className="mx-auto rounded-full w-28"
@@ -99,7 +97,8 @@ export default function Bio() {
                   <br />
                   経験：非機能要件APIレスポンスタイム200msを満たすクエリチューニング・キャッシュ・並列化、価格計算の厳しい品質担保、夜間にバッチサーバを破壊
                   <br />
-                  技術：Kotlin、Spring、PostgreSQL、gRPC、Thymeleaf、TypeScript、マイクロサービス、AWS、クリーンアーキテクチャ、New Relic
+                  技術：Kotlin、Spring、PostgreSQL、gRPC、Thymeleaf、TypeScript、マイクロサービス、AWS、クリーンアーキテクチャ、New
+                  Relic
                 </p>
                 <h3 className="my-2 text-lg underline">
                   2020年4月〜2021年3月
@@ -126,7 +125,6 @@ export default function Bio() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://www.sendai-nct.ac.jp/favicon.ico"
                   className="mx-auto rounded-full w-28"
