@@ -37,7 +37,7 @@ export default function Bio() {
                   <br />
                   経験：アーキテクチャの決定、リリーススコープとスケジュールの決定・品質基準策定などビジネス価値を最大化させてプロジェクトを成功させるためのありとあらゆること
                   <br />
-                  技術：AWS、疎結合、イベント駆動アーキテクチャ
+                  技術：スキーマ駆動開発、AWS、疎結合、Pub/Sub、イベント駆動アーキテクチャ
                 </p>
                 <h3 className="my-2 text-lg underline">
                   2023年3月〜
@@ -50,7 +50,7 @@ export default function Bio() {
                   <br />
                   経験：リリーススコープとスケジュールの決定・開発要員確保・品質基準策定などビジネス価値を最大化させてプロジェクトを成功させるためのありとあらゆること（これにより組織の年間ベストルーキー賞を受賞）、組織へのスクラム導入
                   <br />
-                  技術：Go、Echo、MySQL、Kubernetes、TypeScript、Next.js、AWS、クリーンアーキテクチャ、Datadog
+                  技術：Go、Echo、MySQL、NoSQL、Redis、Auth0、Kubernetes、Digdag、TypeScript、Next.js、Vue.js、AWS、Pub/Sub、クリーンアーキテクチャ、Datadog
                 </p>
                 <h3 className="my-2 text-lg underline">
                   2022年11月〜2023年2月 数百GB/日処理する「CA DataFeed
@@ -99,7 +99,7 @@ export default function Bio() {
                   <br />
                   経験：非機能要件APIレスポンスタイム200msを満たすクエリチューニング・キャッシュ・並列化、価格計算の厳しい品質担保、夜間にバッチサーバを破壊
                   <br />
-                  技術：Kotlin、Spring、PostgreSQL、gRPC、TypeScript、React、マイクロサービス、AWS、クリーンアーキテクチャ、New Relic
+                  技術：Kotlin、Spring、PostgreSQL、gRPC、Thymeleaf、TypeScript、マイクロサービス、AWS、クリーンアーキテクチャ、New Relic
                 </p>
                 <h3 className="my-2 text-lg underline">
                   2020年4月〜2021年3月
