@@ -121,7 +121,7 @@ export default function Honors() {
                   AWS Certified Solutions Architect - Associate
                 </h2>
                 <p className="leading-relaxed text-base">
-                  2021年7月取得（失効）
+                  2021年7月取得
                 </p>
                 <a
                   href="https://www.credly.com/badges/1c36307b-bf80-4b19-9488-29e971a5acb5"
