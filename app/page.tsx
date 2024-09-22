@@ -11,7 +11,7 @@ export default function Home() {
             <img
               src="/mxshun.jpg"
               className="mx-auto rounded-full w-28"
-              alt="MxShun"
+              alt="mxshun"
             />
             <p className="my-6 text-3xl font-bold">しゅん＠MxShun</p>
             <h2 className="max-w-5xl py-12 mx-auto text-lg">

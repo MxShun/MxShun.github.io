@@ -20,7 +20,7 @@ export default function Bio() {
                 <img
                   src="https://www.cyberagent.co.jp/favicon.ico"
                   className="mx-auto rounded-full w-28"
-                  alt="MxShun"
+                  alt="cyberagent"
                 />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
@@ -81,7 +81,7 @@ export default function Bio() {
                 <img
                   src="https://www.askul.co.jp/favicon.ico"
                   className="mx-auto rounded-full w-28"
-                  alt="MxShun"
+                  alt="askul"
                 />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
@@ -130,7 +130,7 @@ export default function Bio() {
                 <img
                   src="https://www.sendai-nct.ac.jp/favicon.ico"
                   className="mx-auto rounded-full w-28"
-                  alt="MxShun"
+                  alt="sendai-nct"
                 />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">

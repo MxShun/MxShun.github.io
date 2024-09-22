@@ -14,7 +14,7 @@ export default function Honors() {
                 <img
                   src="/aws-certified-sysops-administrator-associate.png"
                   className="mx-auto rounded-full w-28"
-                  alt="MxShun"
+                  alt="aws-certified-sysops-administrator-associate"
                 />
               </div>
               <div className="flex-grow">
@@ -47,7 +47,7 @@ export default function Honors() {
                 <img
                   src="/sa-csm-600.png"
                   className="mx-auto rounded-full w-28"
-                  alt="MxShun"
+                  alt="sa-csm-600"
                 />
               </div>
               <div className="flex-grow">
@@ -80,7 +80,7 @@ export default function Honors() {
                 <img
                   src="/aws-certified-developer-associate.png"
                   className="mx-auto rounded-full w-28"
-                  alt="MxShun"
+                  alt="aws-certified-developer-associate"
                 />
               </div>
               <div className="flex-grow">
@@ -113,7 +113,7 @@ export default function Honors() {
                 <img
                   src="/aws-certified-solutions-architect-associate.png"
                   className="mx-auto rounded-full w-28"
-                  alt="MxShun"
+                  alt="aws-certified-solutions-architect-associate"
                 />
               </div>
               <div className="flex-grow">
@@ -148,7 +148,7 @@ export default function Honors() {
                 <img
                   src="/professional-scrum-master-i-psm-i.png"
                   className="mx-auto rounded-full w-28"
-                  alt="MxShun"
+                  alt="professional-scrum-master-i-psm-i"
                 />
               </div>
               <div className="flex-grow">
@@ -181,7 +181,7 @@ export default function Honors() {
                 <img
                   src="/oracle-certified-java-programmer-gold-se-8-oracle-certified-professional-java-se-8-programmer-jpn.png"
                   className="mx-auto rounded-full w-28"
-                  alt="MxShun"
+                  alt="oracle-certified-java-programmer-gold-se-8-oracle-certified-professional-java-se-8-programmer-jpn"
                 />
               </div>
               <div className="flex-grow">
@@ -214,7 +214,7 @@ export default function Honors() {
                 <img
                   src="/oracle-certified-java-programmer-silver-se-8-oracle-certified-associate-java-se-8-programmer-jpn.png"
                   className="mx-auto rounded-full w-28"
-                  alt="MxShun"
+                  alt="oracle-certified-java-programmer-silver-se-8-oracle-certified-associate-java-se-8-programmer-jpn"
                 />
               </div>
               <div className="flex-grow">
