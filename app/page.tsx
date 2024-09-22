@@ -16,9 +16,9 @@ export default function Home() {
             <p className="my-6 text-3xl font-bold">しゅん＠MxShun</p>
             <h2 className="max-w-5xl py-12 mx-auto text-lg">
               サイバーエージェントという会社で PM / スクラムマスター /
-              Webバックエンドエンジニア をしています 💻
+              バックエンドエンジニア をしています 💻
               <br />
-              Go (echo) / Kotlin (Spring) / AWS が基本スキルセット 🐧
+              Go (Echo) / Kotlin (Spring) / AWS が基本スキルセット 🐧
               私個人へのご依頼等は X DM まで 📧
             </h2>
           </div>

@@ -50,7 +50,7 @@ export default function Bio() {
                   <br />
                   経験：リリーススコープとスケジュールの決定・開発要員確保・品質基準策定などビジネス価値を最大化させてプロジェクトを成功させるためのありとあらゆること（これにより組織の年間ベストルーキー賞を受賞）、組織へのスクラム導入
                   <br />
-                  技術：Go、echo、AWS、クリーンアーキテクチャ
+                  技術：Go、Echo、MySQL、Kubernetes、TypeScript、Next.js、AWS、クリーンアーキテクチャ、Datadog
                 </p>
                 <h3 className="my-2 text-lg underline">
                   2022年11月〜2023年2月 数百GB/日処理する「CA DataFeed
@@ -63,7 +63,7 @@ export default function Bio() {
                   <br />
                   経験：データフィードアルゴリズム改善による処理時間44時間短縮、年間1,000万円規模のAWSコスト削減（これにより組織の月間ベストエンジニア賞を受賞）
                   <br />
-                  技術：Java、Spring、AWS
+                  技術：Java、Spring、MySQL、AWS
                 </p>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function Bio() {
                   <br />
                   経験：非機能要件APIレスポンスタイム200msを満たすクエリチューニング・キャッシュ・並列化、価格計算の厳しい品質担保、夜間にバッチサーバを破壊
                   <br />
-                  技術：Kotlin、Spring、マイクロサービス、AWS、クリーンアーキテクチャ
+                  技術：Kotlin、Spring、PostgreSQL、gRPC、TypeScript、React、マイクロサービス、AWS、クリーンアーキテクチャ、New Relic
                 </p>
                 <h3 className="my-2 text-lg underline">
                   2020年4月〜2021年3月
@@ -112,7 +112,7 @@ export default function Bio() {
                   <br />
                   経験：複雑な業務ロジックやリリースリスクといった大規模サービスならではの苦労
                   <br />
-                  技術：Java、Seasar2、モノリス、オンプレミス
+                  技術：Java、Seasar2、Mayaa、モノリス、オンプレミス
                 </p>
               </div>
             </div>
