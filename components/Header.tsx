@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 
-interface HeaderProps {
+type HeaderProps = {
   activePage: string;
-}
+};
 
 const Header: React.FC<HeaderProps> = ({ activePage }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

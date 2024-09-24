@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 
 export default function Talks() {
   return (
-    <main className="relative h-screen overflow-hidden bg-solarized-light dark:bg-solarized-dark">
+    <main className="relative h-screen overflow-y-auto bg-solarized-light dark:bg-solarized-dark">
       <Header activePage="/talks" />
       <section>
         <div className="container px-5 py-5 mx-auto">

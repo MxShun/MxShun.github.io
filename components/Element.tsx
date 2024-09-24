@@ -1,11 +1,11 @@
 import React, { ReactElement } from "react";
 
-interface ElementProps {
+type ElementProps = {
   title: string;
   description: string;
   thumbnail: ReactElement;
   link?: string;
-}
+};
 
 const Element: React.FC<ElementProps> = ({
   title,
