@@ -15,7 +15,6 @@ export default function Talks() {
               thumbnail={
                 <img
                   src="https://media.connpass.com/thumbs/57/4d/574dac434fb5fa7ea380a3909d48c94e.png"
-                  className="mx-auto rounded-full w-28"
                   alt="cyberagent-generative-ai"
                 />
               }
@@ -27,7 +26,6 @@ export default function Talks() {
               thumbnail={
                 <img
                   src="https://media.connpass.com/thumbs/cd/86/cd864f226ea519a43340e8245da3820e.png"
-                  className="mx-auto rounded-full w-28"
                   alt="cyberagent-ai-career"
                 />
               }
@@ -39,7 +37,6 @@ export default function Talks() {
               thumbnail={
                 <img
                   src="https://media.connpass.com/thumbs/a2/dd/a2ddc94ce39d9873f3800672706cb239.png"
-                  className="mx-auto rounded-full w-28"
                   alt="why-kotlin"
                 />
               }
@@ -51,7 +48,6 @@ export default function Talks() {
               thumbnail={
                 <img
                   src="https://media.connpass.com/thumbs/cf/93/cf93650fa6c42e939cd77ce370c67386.png"
-                  className="mx-auto rounded-full w-28"
                   alt="readablelt#3"
                 />
               }
@@ -63,7 +59,6 @@ export default function Talks() {
               thumbnail={
                 <img
                   src="https://media.connpass.com/thumbs/9c/52/9c524cdedc3190139c6f2218d8a6366d.png"
-                  className="mx-auto rounded-full w-28"
                   alt="readablelt#2"
                 />
               }
@@ -75,8 +70,8 @@ export default function Talks() {
               thumbnail={
                 <img
                   src="https://media.connpass.com/thumbs/6a/a5/6aa5405dd00350a1b676f8ae78dacddc.png"
-                  className="mx-auto rounded-full w-28"
                   alt="AStudy+"
+                  className={"max-w-40 max-h-40"}
                 />
               }
               link="https://askul.connpass.com/event/204742/"
@@ -87,7 +82,6 @@ export default function Talks() {
               thumbnail={
                 <img
                   src="https://media.connpass.com/thumbs/e9/aa/e9aaf907fa6a64085d07bd500e19abaf.png"
-                  className="mx-auto rounded-full w-28"
                   alt="JBUG#20"
                 />
               }

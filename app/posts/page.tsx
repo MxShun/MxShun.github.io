@@ -26,7 +26,6 @@ export default async function Posts() {
               thumbnail={
                 <img
                   src="https://developers.cyberagent.co.jp/blog/wp-content/uploads/2023/03/17db55667deaaf8db8a6f6cac09f8a72-1.png"
-                  className="mx-auto rounded-full w-28"
                   alt="pressly-goose"
                 />
               }
@@ -38,7 +37,6 @@ export default async function Posts() {
               thumbnail={
                 <img
                   src="https://developers.cyberagent.co.jp/blog/wp-content/uploads/2022/12/b974697ce993dc618d0ec04567bfca05.png"
-                  className="mx-auto rounded-full w-28"
                   alt="s3-cost"
                 />
               }
@@ -60,7 +58,6 @@ export default async function Posts() {
               thumbnail={
                 <img
                   src="https://cdn.image.st-hatena.com/image/scale/49395b11a6c3645262012a282f45aede2bb517ce/backend=imagemagick;height=1200;version=1;width=1200/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fdefault_entry_og_image%2F151513001%2F1531459019222627"
-                  className="mx-auto rounded-full w-28"
                   alt="kotlin-empty-list-all"
                 />
               }
@@ -72,7 +69,6 @@ export default async function Posts() {
               thumbnail={
                 <img
                   src="https://cdn.image.st-hatena.com/image/scale/f44f022719288ef777369fd9c723ffc728b56539/backend=imagemagick;height=1200;version=1;width=1200/https%3A%2F%2Fstorage.googleapis.com%2Ftech-askul-co-jp%2Fimages%2F2021%2Faskul_shunm%2Frepl.png"
-                  className="mx-auto rounded-full w-28"
                   alt="kotlin-dx"
                 />
               }
@@ -84,7 +80,6 @@ export default async function Posts() {
               thumbnail={
                 <img
                   src="https://cdn.image.st-hatena.com/image/scale/5d669ae9cd88ba58f5a32861ef6b1a1bada7de94/backend=imagemagick;height=1200;version=1;width=1200/https%3A%2F%2Fstorage.googleapis.com%2Ftech-askul-co-jp%2Fimages%2F2021%2Faskul_shunm%2Faskul_entrance.jpg"
-                  className="mx-auto rounded-full w-28"
                   alt="askul-new-grad"
                 />
               }
@@ -106,7 +101,6 @@ export default async function Posts() {
               thumbnail={
                 <img
                   src="https://s.yimg.jp/images/tecblog/2020-H1/hack14/ogp.png"
-                  className="mx-auto rounded-full w-28"
                   alt="project-leader"
                 />
               }
@@ -125,13 +119,7 @@ export default async function Posts() {
                 key={index} // NOTE: コンポーネント内でリストコンポーネントをレンダリングする場合に必要
                 title={post.title}
                 description={`${post.createdAt}投稿`}
-                thumbnail={
-                  <img
-                    src={post.thumbnailUrl}
-                    className="mx-auto rounded-full w-28"
-                    alt={post.title}
-                  />
-                }
+                thumbnail={<img src={post.thumbnailUrl} alt={post.title} />}
                 link={post.url}
               />
             ))}

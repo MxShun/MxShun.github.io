@@ -15,13 +15,11 @@ const Element: React.FC<ElementProps> = ({
 }) => {
   return (
     <div className="lg:w-1/4 md:w-1/2 p-4 w-full flex flex-col text-center items-center">
-      <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-white mb-5 flex-shrink-0">
+      <div className="max-w-80 max-h-80 items-center justify-center mb-5">
         {thumbnail}
       </div>
       <div className="flex-grow">
-        <h2 className="text-white text-lg title-font font-medium mb-3">
-          {title}
-        </h2>
+        <h2 className="text-white text-lg font-medium mb-3">{title}</h2>
         <p className="leading-relaxed text-base">{description}</p>
         <>
           {link && (

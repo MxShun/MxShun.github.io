@@ -18,7 +18,6 @@ export default function Bio() {
               <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
                 <img
                   src="https://www.cyberagent.co.jp/favicon.ico"
-                  className="mx-auto rounded-full w-28"
                   alt="cyberagent"
                 />
               </div>
@@ -76,11 +75,7 @@ export default function Bio() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
-                <img
-                  src="https://www.askul.co.jp/favicon.ico"
-                  className="mx-auto rounded-full w-28"
-                  alt="askul"
-                />
+                <img src="https://www.askul.co.jp/favicon.ico" alt="askul" />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="text-solarized-cyan mb-1 text-xl">
@@ -127,7 +122,6 @@ export default function Bio() {
               <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
                 <img
                   src="https://www.sendai-nct.ac.jp/favicon.ico"
-                  className="mx-auto rounded-full w-28"
                   alt="sendai-nct"
                 />
               </div>
