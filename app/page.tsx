@@ -1,4 +1,7 @@
 import Header from "@/components/Header";
+import { basePath } from "@/next.config";
+
+const BASE_PATH = basePath ? basePath : "";
 
 export default function Home() {
   return (
@@ -8,7 +11,7 @@ export default function Home() {
         <div className="container flex-col justify-between mx-auto">
           <div className="text-center">
             <img
-              src="/mxshun.jpg"
+              src={`${BASE_PATH}/mxshun.jpg`}
               className="mx-auto rounded-full w-36"
               alt="mxshun"
             />

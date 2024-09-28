@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Header from "@/components/Header";
 
 export default function Bio() {
@@ -40,13 +41,13 @@ export default function Bio() {
                 </p>
                 <h3 className="mt-6 mb-2 text-2xl">
                   2023年3月〜 AIによるクリエイティブ確認サポートシステム「
-                  <a
+                  <Link
                     href={"https://www.cyberagent.co.jp/news/detail/id=29953"}
                     className={"link"}
                     target={"_blank"}
                   >
                     極予測やりとりAI
-                  </a>
+                  </Link>
                   」
                 </h3>
                 <p className="leading-relaxed">
@@ -60,13 +61,13 @@ export default function Bio() {
                 </p>
                 <h3 className="mt-6 mb-2 text-2xl">
                   2022年11月〜2023年2月 数百GB/日処理する「
-                  <a
+                  <Link
                     href={"https://www.cyberagent.co.jp/news/detail/id=26786"}
                     className={"link"}
                     target={"_blank"}
                   >
                     CA DataFeed Manager
-                  </a>
+                  </Link>
                   」の保守
                 </h3>
                 <p className="leading-relaxed">
@@ -99,7 +100,7 @@ export default function Bio() {
                 </div>
                 <h3 className="my-2 text-2xl">
                   2021年4月〜2022年10月 投資額約60億円の大規模サービス統合「
-                  <a
+                  <Link
                     href={
                       "https://www.askul.co.jp/kaisya/ir/library/pdf/2021Q2FY.pdf"
                     }
@@ -107,7 +108,7 @@ export default function Bio() {
                     target={"_blank"}
                   >
                     Trylion PJ
-                  </a>
+                  </Link>
                   」
                 </h3>
                 <p className="leading-relaxed">

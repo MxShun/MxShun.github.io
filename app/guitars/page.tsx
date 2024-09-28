@@ -1,5 +1,9 @@
-import Header from "@/components/Header";
 import React from "react";
+import Link from "next/link";
+import Header from "@/components/Header";
+import { basePath } from "@/next.config";
+
+const BASE_PATH = basePath ? basePath : "";
 
 export default function Guitars() {
   return (
@@ -9,13 +13,13 @@ export default function Guitars() {
         <div className="container px-5 py-5 mx-auto">
           <div className="text-center mb-10">
             <h1>
-              <a
+              <Link
                 href="https://kenyokoyama.com/guitar/"
                 className={"link"}
                 target={"_blank"}
               >
                 Ken Yokoyama
-              </a>
+              </Link>
               &nbsp;に憧れただけのページ
             </h1>
             <div className="flex mt-6 justify-center">
@@ -27,7 +31,7 @@ export default function Guitars() {
               <div className="flex-grow">
                 <figure className={"relative"}>
                   <img
-                    src="/fender-mod-shop-jazzmaster-23.jpg"
+                    src={`${BASE_PATH}/fender-mod-shop-jazzmaster-23.jpg`}
                     alt="fender-mod-shop-jazzmaster-23"
                     className="max-w-96 max-h-96 object-cover object-center"
                   />
@@ -51,7 +55,7 @@ export default function Guitars() {
               <div className="flex-grow">
                 <figure className={"relative"}>
                   <img
-                    src="/gibson-limited-explorer-gothic-ii-06.jpg"
+                    src={`${BASE_PATH}/gibson-limited-explorer-gothic-ii-06.jpg`}
                     alt="gibson-limited-explorer-gothic-ii-06"
                     className="max-w-96 max-h-96 object-cover object-center"
                   />
@@ -75,7 +79,7 @@ export default function Guitars() {
               <div className="flex-grow">
                 <figure className={"relative"}>
                   <img
-                    src="/epiphone-japan-les-paul-standard-lps-85f-99.jpg"
+                    src={`${BASE_PATH}/epiphone-japan-les-paul-standard-lps-85f-99.jpg`}
                     alt="epiphone-japan-les-paul-standard-lps-85f-99.jpg"
                     className="max-w-96 max-h-96 object-cover object-center"
                   />

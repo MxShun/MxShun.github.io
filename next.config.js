@@ -1,6 +1,7 @@
 // Static Exports https://nextjs.org/docs/app/building-your-application/deploying/static-exports
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: "/MxShun",
   output: "export",
 
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`

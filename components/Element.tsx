@@ -1,4 +1,5 @@
 import React, { ReactElement } from "react";
+import Link from "next/link";
 
 type ElementProps = {
   title: string;
@@ -23,7 +24,7 @@ const Element: React.FC<ElementProps> = ({
         <p className="leading-relaxed text-base">{description}</p>
         <>
           {link && (
-            <a
+            <Link
               href={link}
               className="link mt-3 inline-flex items-center"
               target={"_blank"}
@@ -41,7 +42,7 @@ const Element: React.FC<ElementProps> = ({
               >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
-            </a>
+            </Link>
           )}
         </>
       </div>

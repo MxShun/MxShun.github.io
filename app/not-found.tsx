@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function NotFound() {
   return (
@@ -9,7 +10,7 @@ export default function NotFound() {
             <p className="my-6 sm:text-3xl text-2xl font-bold">
               ページが見つかりませんでした
             </p>
-            <a href="/" className="link mt-3 inline-flex items-center">
+            <Link href="/" className="link mt-3 inline-flex items-center">
               Go Home
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +24,7 @@ export default function NotFound() {
               >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
