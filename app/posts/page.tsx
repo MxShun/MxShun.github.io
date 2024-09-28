@@ -7,7 +7,7 @@ export default async function Posts() {
   const qiitaPosts = await getQiitaPosts();
 
   return (
-    <main className="relative h-screen overflow-y-auto bg-solarized-light dark:bg-solarized-dark">
+    <main className="relative h-screen overflow-y-auto bg-solarized-light dark:bg-solarized-dark text-solarized-light dark:text-solarized-dark">
       <Header activePage="/posts" />
       <section>
         <div className="container px-5 py-5 mx-auto">

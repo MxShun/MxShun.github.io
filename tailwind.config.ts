@@ -25,6 +25,7 @@ const config: Config = {
       },
       colors: {
         "solarized-cyan": "#2AA198",
+        "solarized-blue": "#268bd2",
       },
     },
   },

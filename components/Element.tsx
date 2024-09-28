@@ -19,7 +19,7 @@ const Element: React.FC<ElementProps> = ({
         {thumbnail}
       </div>
       <div className="flex-grow">
-        <h2 className="text-white text-lg font-medium mb-3">{title}</h2>
+        <h2 className="text-lg font-medium mb-3">{title}</h2>
         <p className="leading-relaxed text-base">{description}</p>
         <>
           {link && (
