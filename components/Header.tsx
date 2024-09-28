@@ -18,8 +18,8 @@ const Header: React.FC<HeaderProps> = ({ activePage }) => {
 
   return (
     <header className="z-30 flex items-center w-full h-24 sm:h-32">
-      <div className="container flex items-center justify-between px-6 mx-auto">
-        <div className="text-lg text-solarized-light dark:text-solarized-dark">
+      <div className="container flex items-center justify-between px-6 mx-auto text-lg text-solarized-light dark:text-solarized-dark">
+        <div>
           <a
             href="https://x.com/MxShun"
             rel="noopener noreferrer"
@@ -38,9 +38,9 @@ const Header: React.FC<HeaderProps> = ({ activePage }) => {
             ＠MxShun
           </a>
         </div>
-        <div className="flex items-center">
+        <div>
           <nav
-            className={`lg:flex items-center ${isMenuOpen ? "fixed z-50 top-0 left-0 w-full h-full p-4 bg-solarized-light-deep/80 dark:bg-solarized-dark-deep/80" : "hidden"} text-lg text-solarized-light dark:text-solarized-dark`}
+            className={`lg:flex items-center ${isMenuOpen ? "fixed z-50 top-0 left-0 w-full h-full p-4 bg-solarized-light-deep/80 dark:bg-solarized-dark-deep/80" : "hidden"}`}
           >
             <a href="/" className={getNavClass("/")}>
               ホーム

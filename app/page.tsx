@@ -12,7 +12,9 @@ export default function Home() {
               className="mx-auto rounded-full w-36"
               alt="mxshun"
             />
-            <p className="my-6 text-3xl font-bold">しゅん＠MxShun</p>
+            <p className="my-6 sm:text-3xl text-2xl font-bold">
+              しゅん＠MxShun
+            </p>
             <h2 className="max-w-5xl py-12 mx-auto text-lg">
               サイバーエージェントで「極予測やりとりAI」というプロダクトの
               開発責任者 / EM / スクラムマスター / バックエンドエンジニア

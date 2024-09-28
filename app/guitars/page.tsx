@@ -7,15 +7,19 @@ export default function Guitars() {
       <Header activePage="/guitars" />
       <section>
         <div className="container px-5 py-5 mx-auto">
-          <div className="text-center mb-20">
-            <h1 className="sm:text-xl text-lg font-medium mb-4">
-              <a href="https://kenyokoyama.com/guitar/">
-                Guitars アーカイブ | Ken Yokoyama(Band) OFFICIAL SITE
+          <div className="text-center mb-10">
+            <h1>
+              <a
+                href="https://kenyokoyama.com/guitar/"
+                className={"link"}
+                target={"_blank"}
+              >
+                Ken Yokoyama
               </a>
-              に憧れただけのページ
+              &nbsp;に憧れただけのページ
             </h1>
             <div className="flex mt-6 justify-center">
-              <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+              <div className="w-16 h-1 rounded-full bg-solarized-dark dark:bg-solarized-light inline-flex"></div>
             </div>
           </div>
           <div className="flex flex-wrap">

@@ -11,15 +11,13 @@ export default async function Posts() {
       <Header activePage="/posts" />
       <section>
         <div className="container px-5 py-5 mx-auto">
-          <div className="text-center mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium mb-4">
-              CyberAgent Developers Blog
-            </h1>
+          <div className="text-center mb-10">
+            <h1>CyberAgent Developers Blog</h1>
             <div className="flex mt-6 justify-center">
-              <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+              <div className="w-16 h-1 rounded-full bg-solarized-dark dark:bg-solarized-light inline-flex"></div>
             </div>
           </div>
-          <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+          <div className="flex flex-wrap sm:-m-4 -mx-4 md:space-y-0 space-y-6">
             <Element
               title="Go製DBマイグレーションツール liamstask/goose から pressly/goose へのスムーズな移行"
               description="2023年3月10日投稿"
@@ -43,15 +41,13 @@ export default async function Posts() {
               link="https://developers.cyberagent.co.jp/blog/archives/38950/"
             />
           </div>
-          <div className="text-center m-20">
-            <h1 className="sm:text-3xl text-2xl font-medium mb-4">
-              ASKUL Engineering BLOG
-            </h1>
+          <div className="text-center m-10">
+            <h1>ASKUL Engineering BLOG</h1>
             <div className="flex mt-6 justify-center">
-              <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+              <div className="w-16 h-1 rounded-full bg-solarized-dark dark:bg-solarized-light inline-flex"></div>
             </div>
           </div>
-          <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+          <div className="flex flex-wrap sm:-m-4 -mx-4 md:space-y-0 space-y-6">
             <Element
               title="Kotlin の emptyList.all { false } が true になるということ"
               description="2022年4月8日投稿"
@@ -86,15 +82,13 @@ export default async function Posts() {
               link="https://tech.askul.co.jp/entry/2021/03/05/110000"
             />
           </div>
-          <div className="text-center m-20">
-            <h1 className="sm:text-3xl text-2xl font-medium mb-4">
-              Yahoo! JAPAN Tech Blog
-            </h1>
+          <div className="text-center m-10">
+            <h1>Yahoo! JAPAN Tech Blog</h1>
             <div className="flex mt-6 justify-center">
-              <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+              <div className="w-16 h-1 rounded-full bg-solarized-dark dark:bg-solarized-light inline-flex"></div>
             </div>
           </div>
-          <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+          <div className="flex flex-wrap sm:-m-4 -mx-4 md:space-y-0 space-y-6">
             <Element
               title="新卒入社3カ月目にしてプロジェクトリーダーをした話。"
               description="2020年7月17日投稿"
@@ -107,13 +101,13 @@ export default async function Posts() {
               link="https://techblog.yahoo.co.jp/entry/2020071730014127/"
             />
           </div>
-          <div className="text-center m-20">
-            <h1 className="sm:text-3xl text-2xl font-medium mb-4">Qiita</h1>
+          <div className="text-center m-10">
+            <h1>Qiita</h1>
             <div className="flex mt-6 justify-center">
-              <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+              <div className="w-16 h-1 rounded-full bg-solarized-dark dark:bg-solarized-light inline-flex"></div>
             </div>
           </div>
-          <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+          <div className="flex flex-wrap sm:-m-4 -mx-4 md:space-y-0 space-y-6">
             {qiitaPosts.map((post, index) => (
               <Element
                 key={index} // NOTE: コンポーネント内でリストコンポーネントをレンダリングする場合に必要

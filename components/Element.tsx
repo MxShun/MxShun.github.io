@@ -25,7 +25,8 @@ const Element: React.FC<ElementProps> = ({
           {link && (
             <a
               href={link}
-              className="mt-3 text-indigo-400 inline-flex items-center"
+              className="link mt-3 inline-flex items-center"
+              target={"_blank"}
             >
               Learn More
               <svg
