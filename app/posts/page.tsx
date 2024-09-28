@@ -3,6 +3,8 @@ import Element from "@/components/Element";
 import Header from "@/components/Header";
 import { getQiitaPosts } from "@/features/qiita/getUserItems";
 
+export const dynamic = "force-static";
+
 export default async function Posts() {
   const qiitaPosts = await getQiitaPosts();
 
