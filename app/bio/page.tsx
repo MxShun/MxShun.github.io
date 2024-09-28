@@ -15,7 +15,7 @@ export default function Bio() {
               2
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-20 h-20 bg-solarized-dark dark:bg-solarized-light text-solarized-dark dark:text-solarized-light rounded-full inline-flex items-center justify-center">
                 <img
                   src="https://www.cyberagent.co.jp/favicon.ico"
                   alt="cyberagent"
@@ -25,7 +25,7 @@ export default function Bio() {
                 <h2 className="text-solarized-cyan mb-1 text-xl">
                   株式会社サイバーエージェント
                 </h2>
-                <h3 className="my-2 text-lg underline">
+                <h3 className="mt-2 text-lg underline">
                   2024年6月〜 クリエイティブ即日配信を実現する「AD自動入稿」
                 </h3>
                 <p className="leading-relaxed">
@@ -37,7 +37,7 @@ export default function Bio() {
                   <br />
                   技術：スキーマ駆動開発、AWS、疎結合、Pub/Sub、イベント駆動アーキテクチャ
                 </p>
-                <h3 className="my-2 text-lg underline">
+                <h3 className="mt-2 text-lg underline">
                   2023年3月〜
                   AIによるクリエイティブ確認サポートシステム「極予測やりとりAI」
                 </h3>
@@ -50,7 +50,7 @@ export default function Bio() {
                   <br />
                   技術：Go、Echo、MySQL、NoSQL、Redis、Auth0、Kubernetes、Digdag、TypeScript、Next.js、Vue.js、AWS、Pub/Sub、クリーンアーキテクチャ、Datadog
                 </p>
-                <h3 className="my-2 text-lg underline">
+                <h3 className="mt-2 text-lg underline">
                   2022年11月〜2023年2月 数百GB/日処理する「CA DataFeed
                   Manager」の保守
                 </h3>
@@ -74,14 +74,14 @@ export default function Bio() {
               1
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-20 h-20 bg-solarized-dark dark:bg-solarized-light text-solarized-dark dark:text-solarized-light rounded-full inline-flex items-center justify-center">
                 <img src="https://www.askul.co.jp/favicon.ico" alt="askul" />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="text-solarized-cyan mb-1 text-xl">
                   アスクル株式会社
                 </h2>
-                <h3 className="my-2 text-lg underline">
+                <h3 className="mt-2 text-lg underline">
                   2021年4月〜2022年10月
                   ソフトウェア投資額約60億円の大規模サービス統合「Trylion PJ」
                 </h3>
@@ -95,7 +95,7 @@ export default function Bio() {
                   技術：Kotlin、Spring、PostgreSQL、gRPC、Thymeleaf、TypeScript、マイクロサービス、AWS、クリーンアーキテクチャ、New
                   Relic
                 </p>
-                <h3 className="my-2 text-lg underline">
+                <h3 className="mt-2 text-lg underline">
                   2020年4月〜2021年3月
                   ユーザ数500万超の国内BtoB大手サービス「アスクル」の保守
                 </h3>
@@ -119,7 +119,7 @@ export default function Bio() {
               0
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-20 h-20 bg-white text-solarized-dark rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 w-20 h-20 bg-solarized-dark dark:bg-solarized-light text-solarized-dark dark:text-solarized-light rounded-full inline-flex items-center justify-center">
                 <img
                   src="https://www.sendai-nct.ac.jp/favicon.ico"
                   alt="sendai-nct"
@@ -129,7 +129,7 @@ export default function Bio() {
                 <h2 className="text-solarized-cyan mb-1 text-xl">
                   仙台高等専門学校
                 </h2>
-                <h3 className="my-2 text-lg underline">
+                <h3 className="mt-2 text-lg underline">
                   〜2020年3月 情報電子システム工学専攻
                 </h3>
                 <p className="leading-relaxed">
