@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="relative h-screen overflow-y-auto bg-solarized-light dark:bg-solarized-dark text-solarized-light dark:text-solarized-dark">
       <Header activePage="/" />
-      <div className="relative z-20 flex h-2/3 items-center">
+      <div className="relative z-20 flex h-4/5 items-center">
         <div className="container flex-col justify-between mx-auto">
           <div className="text-center">
             <img
