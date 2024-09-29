@@ -1,9 +1,5 @@
-import React from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
-import { basePath } from "@/next.config";
-
-const BASE_PATH = basePath ? basePath : "";
 
 export default function Guitars() {
   return (
@@ -31,7 +27,7 @@ export default function Guitars() {
               <div className="flex-grow">
                 <figure className={"relative"}>
                   <img
-                    src={`${BASE_PATH}/fender-mod-shop-jazzmaster-23.jpg`}
+                    src="/fender-mod-shop-jazzmaster-23.jpg"
                     alt="fender-mod-shop-jazzmaster-23"
                     className="max-w-96 max-h-96 object-cover object-center"
                   />
@@ -55,7 +51,7 @@ export default function Guitars() {
               <div className="flex-grow">
                 <figure className={"relative"}>
                   <img
-                    src={`${BASE_PATH}/gibson-limited-explorer-gothic-ii-06.jpg`}
+                    src="/gibson-limited-explorer-gothic-ii-06.jpg"
                     alt="gibson-limited-explorer-gothic-ii-06"
                     className="max-w-96 max-h-96 object-cover object-center"
                   />
@@ -79,7 +75,7 @@ export default function Guitars() {
               <div className="flex-grow">
                 <figure className={"relative"}>
                   <img
-                    src={`${BASE_PATH}/epiphone-japan-les-paul-standard-lps-85f-99.jpg`}
+                    src="/epiphone-japan-les-paul-standard-lps-85f-99.jpg"
                     alt="epiphone-japan-les-paul-standard-lps-85f-99.jpg"
                     className="max-w-96 max-h-96 object-cover object-center"
                   />

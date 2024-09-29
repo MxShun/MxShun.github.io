@@ -1,4 +1,3 @@
-import React from "react";
 import Element from "@/components/Element";
 import Header from "@/components/Header";
 import { getQiitaPosts } from "@/features/qiita/getUserItems";

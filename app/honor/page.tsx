@@ -1,9 +1,5 @@
-import React from "react";
 import Element from "@/components/Element";
 import Header from "@/components/Header";
-import { basePath } from "@/next.config";
-
-const BASE_PATH = basePath ? basePath : "";
 
 export default function Honors() {
   return (
@@ -17,7 +13,7 @@ export default function Honors() {
               description="2024年3月取得"
               thumbnail={
                 <img
-                  src={`${BASE_PATH}/aws-certified-sysops-administrator-associate.png`}
+                  src="/aws-certified-sysops-administrator-associate.png"
                   alt="aws-certified-sysops-administrator-associate"
                   className={"max-w-40 max-h-40"}
                 />
@@ -29,7 +25,7 @@ export default function Honors() {
               description="2024年2月取得"
               thumbnail={
                 <img
-                  src={`${BASE_PATH}/sa-csm-600.png`}
+                  src="/sa-csm-600.png"
                   alt="sa-csm-600"
                   className={"max-w-40 max-h-40"}
                 />
@@ -41,7 +37,7 @@ export default function Honors() {
               description="2022年1月取得"
               thumbnail={
                 <img
-                  src={`${BASE_PATH}/aws-certified-developer-associate.png`}
+                  src="/aws-certified-developer-associate.png"
                   alt="aws-certified-developer-associate"
                   className={"max-w-40 max-h-40"}
                 />
@@ -53,7 +49,7 @@ export default function Honors() {
               description="2021年7月取得"
               thumbnail={
                 <img
-                  src={`${BASE_PATH}/aws-certified-solutions-architect-associate.png`}
+                  src="/aws-certified-solutions-architect-associate.png"
                   alt="aws-certified-solutions-architect-associate"
                   className={"max-w-40 max-h-40"}
                 />
@@ -65,7 +61,7 @@ export default function Honors() {
               description="2021年3月取得"
               thumbnail={
                 <img
-                  src={`${BASE_PATH}/professional-scrum-master-i-psm-i.png`}
+                  src="/professional-scrum-master-i-psm-i.png"
                   alt="professional-scrum-master-i-psm-i"
                   className={"max-w-40 max-h-40"}
                 />
@@ -77,7 +73,7 @@ export default function Honors() {
               description="2021年1月取得"
               thumbnail={
                 <img
-                  src={`${BASE_PATH}/oracle-certified-java-programmer-gold-se-8-oracle-certified-professional-java-se-8-programmer-jpn.png`}
+                  src="/oracle-certified-java-programmer-gold-se-8-oracle-certified-professional-java-se-8-programmer-jpn.png"
                   alt="oracle-certified-java-programmer-gold-se-8-oracle-certified-professional-java-se-8-programmer-jpn"
                   className={"max-w-40 max-h-40"}
                 />
@@ -89,7 +85,7 @@ export default function Honors() {
               description="2020年8月取得"
               thumbnail={
                 <img
-                  src={`${BASE_PATH}/oracle-certified-java-programmer-silver-se-8-oracle-certified-associate-java-se-8-programmer-jpn.png`}
+                  src="/oracle-certified-java-programmer-silver-se-8-oracle-certified-associate-java-se-8-programmer-jpn.png"
                   alt="oracle-certified-java-programmer-silver-se-8-oracle-certified-associate-java-se-8-programmer-jpn"
                   className={"max-w-40 max-h-40"}
                 />
