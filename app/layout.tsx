@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "しゅん＠MxShun",
   description: "しゅん＠MxShunのプロフィール",
+  other: {
+    "google-site-verification": "yudmgra48wsLZh1gu_pz-IZrlk97CRHg3PattnExKl0", // NOTE: Google Search Console 所有権
+  }
 };
 
 export default function RootLayout({
