@@ -20,6 +20,17 @@ export default async function Posts() {
           </div>
           <div className="flex flex-wrap sm:-m-4 -mx-4 md:space-y-0 space-y-6">
             <Element
+              title="疎結合アーキテクチャにおける ogen-go/ogen によるプロデューササイドリクエストバリデーション"
+              description="2023年3月10日投稿"
+              thumbnail={
+                <img
+                  src="https://developers.cyberagent.co.jp/blog/wp-content/uploads/2023/03/17db55667deaaf8db8a6f6cac09f8a72-1.png"
+                  alt="pressly-goose"
+                />
+              }
+              link="https://developers.cyberagent.co.jp/blog/archives/41187/"
+            />
+            <Element
               title="Go製DBマイグレーションツール liamstask/goose から pressly/goose へのスムーズな移行"
               description="2023年3月10日投稿"
               thumbnail={
