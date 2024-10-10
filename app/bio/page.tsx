@@ -58,6 +58,24 @@ export default function Bio() {
                   <br />
                   技術：Go、Echo、MySQL、NoSQL、Redis、Auth0、Kubernetes、Digdag、TypeScript、Next.js、Vue.js、AWS、Pub/Sub、クリーンアーキテクチャ、Datadog
                 </p>
+                <h3 className="my-2 text-2xl">
+                  2024年4月〜 エンジニア学習コミュニティ「
+                  <Link
+                    href={"https://www.cyberagent.co.jp/careers/special/students/tech_lounge/"}
+                    className={"link"}
+                    target={"_blank"}
+                  >
+                    CA Tech Lounge
+                  </Link>
+                  」のバックエンドメンター
+                </h3>
+                <p className="leading-relaxed">
+                  体制：会員50名程度、メンター10名程度
+                  <br />
+                  役割：バックエンド会員のメンター
+                  <br />
+                  経験：バックエンド会員の半期目標に対しての活動のフィードバックと、技術・キャリアの相談役
+                </p>
                 <h3 className="mt-6 mb-2 text-2xl">
                   2022年11月〜2023年2月 数百GB/日処理する「
                   <Link
