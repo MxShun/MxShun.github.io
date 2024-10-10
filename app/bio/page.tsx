@@ -58,7 +58,7 @@ export default function Bio() {
                   <br />
                   技術：Go、Echo、MySQL、NoSQL、Redis、Auth0、Kubernetes、Digdag、TypeScript、Next.js、Vue.js、AWS、Pub/Sub、クリーンアーキテクチャ、Datadog
                 </p>
-                <h3 className="my-2 text-2xl">
+                <h3 className="mt-6 mb-2 text-2xl">
                   2024年4月〜 エンジニア学習コミュニティ「
                   <Link
                     href={"https://www.cyberagent.co.jp/careers/special/students/tech_lounge/"}
