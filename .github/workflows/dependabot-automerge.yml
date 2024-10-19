@@ -1,6 +1,9 @@
 # https://docs.github.com/ja/code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions#enable-auto-merge-on-a-pull-request
 name: Dependabot Auto-merge
-on: pull_request
+on:
+  pull_request:
+    types:
+      - opened
 
 permissions:
   contents: write
