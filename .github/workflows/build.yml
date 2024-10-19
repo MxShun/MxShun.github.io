@@ -1,0 +1,13 @@
+# https://github.com/actions/starter-workflows/blob/e4837fa7681a5ff12fe8500675c47c7f6a296f98/pages/nextjs.yml
+name: Build Next.js site
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build
+        uses: ./.github/workflows/composite/build
