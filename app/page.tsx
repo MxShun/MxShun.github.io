@@ -17,7 +17,7 @@ export default function Home() {
             </p>
             <h2 className="max-w-5xl py-12 mx-auto text-lg">
               サイバーエージェントで「極予測やりとりAI」というプロダクトの
-              開発責任者 / EM / スクラムマスター / バックエンドエンジニア
+              開発責任者 / EM / 認定スクラムマスター / バックエンドエンジニア
               をしています 💻
               <br />
               Go (Echo) / Kotlin (Spring) / AWS が基本スキルセット 🐧
