@@ -20,6 +20,17 @@ export default async function Posts() {
           </div>
           <div className="flex flex-wrap sm:-m-4 -mx-4 md:space-y-0 space-y-6">
             <Element
+              title="cURLは成功しGo HTTPリクエストは失敗する事象の裏にある仕様"
+              description="2025年1月17日投稿"
+              thumbnail={
+                <img
+                  src="https://developers.cyberagent.co.jp/blog/wp-content/uploads/2024/12/17db55667deaaf8db8a6f6cac09f8a72-3.png"
+                  alt="curl-go-http"
+                />
+              }
+              link="https://developers.cyberagent.co.jp/blog/archives/53785/"
+            />
+            <Element
               title="GoのEchoフレームワークでrequest bodyとresponse bodyをログ出力する"
               description="2024年11月28日投稿"
               thumbnail={
