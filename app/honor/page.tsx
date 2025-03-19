@@ -9,6 +9,18 @@ export default function Honors() {
         <div className="container px-5 py-5 mx-auto">
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <Element
+              title="GitHub Actions Certification"
+              description="2025年3月取得"
+              thumbnail={
+                <img
+                  src="/github-actions-certification.png"
+                  alt="github-actions-certification"
+                  className={"max-w-40 max-h-40"}
+                />
+              }
+              link="https://www.credly.com/badges/a6502a45-4c4e-457e-82c3-c8c03b1ba0d6"
+            />
+            <Element
               title="AWS Certified SysOps Administrator - Associate"
               description="2024年3月取得"
               thumbnail={
