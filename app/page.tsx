@@ -16,9 +16,7 @@ export default function Home() {
               しゅん＠MxShun
             </p>
             <h2 className="max-w-5xl py-12 mx-auto text-lg">
-              サイバーエージェントで「極予測やりとりAI」というプロダクトの
-              開発責任者 / EM / 認定スクラムマスター / バックエンドエンジニア
-              をしています 💻
+              EM / 認定スクラムマスター / バックエンドエンジニアをしています 💻
               <br />
               Go (Echo) / Kotlin (Spring) / AWS が基本スキルセット 🐧
               私個人へのご依頼等は X DM まで 📧
