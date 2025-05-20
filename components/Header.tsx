@@ -49,7 +49,7 @@ const Header: React.FC<HeaderProps> = ({ activePage }) => {
             <Link href="/bio" className={getNavClass("/bio")}>
               経歴
             </Link>
-            <Link href="/honor" className={getNavClass("/honor")}>
+            <Link href="/certs" className={getNavClass("/certs")}>
               資格
             </Link>
             <Link href="/talks" className={getNavClass("/talks")}>
