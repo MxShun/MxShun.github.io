@@ -7,6 +7,38 @@ export default function Bio() {
       <Header activePage="/bio" />
       <section>
         <div className="container py-5 mx-auto flex flex-wrap">
+        <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+            <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+              <div className="h-full w-1 bg-solarized-dark dark:bg-solarized-light pointer-events-none"></div>
+            </div>
+            <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-solarized-cyan text-solarized-dark relative z-10">
+              3
+            </div>
+            <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+              <div className="flex-shrink-0 w-20 h-20 bg-solarized-dark dark:bg-solarized-light text-solarized-dark dark:text-solarized-light rounded-full inline-flex items-center justify-center">
+                <img
+                  src="https://jp.corp-sansan.com/favicon.ico"
+                  alt="sansan"
+                />
+              </div>
+              <div className="flex-grow sm:pl-6">
+                <h1>Sansan株式会社</h1>
+                <div className="flex mt-6 mb-10">
+                  <div className="w-16 h-1 rounded-full bg-solarized-dark dark:bg-solarized-light inline-flex"></div>
+                </div>
+                <h3 className="my-2 text-2xl">
+                  2025年5月〜
+                </h3>
+                <p className="leading-relaxed">
+                  体制：4プロダクトチーム、30人程度
+                  <br />
+                  役割：バックエンドエンジニア
+                  <br />
+                  技術：Ruby、Ruby on Rails
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div className="h-full w-1 bg-solarized-dark dark:bg-solarized-light pointer-events-none"></div>
@@ -27,7 +59,7 @@ export default function Bio() {
                   <div className="w-16 h-1 rounded-full bg-solarized-dark dark:bg-solarized-light inline-flex"></div>
                 </div>
                 <h3 className="my-2 text-2xl">
-                  2024年6月〜 クリエイティブ即日配信を実現する「AD自動入稿」
+                  2024年6月〜2025年4月 クリエイティブ即日配信を実現する「AD自動入稿」
                 </h3>
                 <p className="leading-relaxed">
                   体制：4プロダクトチーム、30人程度
@@ -39,7 +71,7 @@ export default function Bio() {
                   技術：スキーマ駆動開発、AWS、疎結合、Pub/Sub、イベント駆動アーキテクチャ
                 </p>
                 <h3 className="mt-6 mb-2 text-2xl">
-                  2023年3月〜 AIによるクリエイティブ確認サポートシステム「
+                  2023年3月〜2025年4月 AIによるクリエイティブ確認サポートシステム「
                   <Link
                     href={"https://www.cyberagent.co.jp/news/detail/id=29953"}
                     className={"link"}
@@ -59,7 +91,7 @@ export default function Bio() {
                   技術：Go、Echo、MySQL、NoSQL、Redis、Auth0、Kubernetes、Digdag、TypeScript、Next.js、Vue.js、AWS、Pub/Sub、クリーンアーキテクチャ、Datadog
                 </p>
                 <h3 className="mt-6 mb-2 text-2xl">
-                  2024年4月〜 エンジニア学習コミュニティ「
+                  2024年4月〜2025年4月 エンジニア学習コミュニティ「
                   <Link
                     href={"https://www.cyberagent.co.jp/careers/special/students/tech_lounge/"}
                     className={"link"}
