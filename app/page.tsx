@@ -12,15 +12,15 @@ export default function Home() {
               className="mx-auto rounded-full w-36"
               alt="mxshun"
             />
-            <p className="my-6 sm:text-3xl text-2xl font-bold">
+            <h1 className="my-6 sm:text-3xl text-2xl font-bold">
               しゅん＠MxShun
-            </p>
-            <h2 className="max-w-5xl py-12 mx-auto text-lg">
+            </h1>
+            <p className="max-w-5xl py-12 mx-auto text-lg">
               Sansan という会社で EM / 認定スクラムマスター / バックエンドエンジニアをしています 💻
               <br />
               Go (Echo) / Kotlin (Spring) / AWS が基本スキルセット 🐧
               私個人へのご依頼等は X DM まで 📧
-            </h2>
+            </p>
           </div>
         </div>
       </div>
