@@ -13,6 +13,25 @@ export default async function Posts() {
       <section>
         <div className="container px-5 py-5 mx-auto">
           <div className="text-center mb-10">
+            <h1>Sansan Tech Blog</h1>
+            <div className="flex mt-6 justify-center">
+              <div className="w-16 h-1 rounded-full bg-solarized-dark dark:bg-solarized-light inline-flex"></div>
+            </div>
+          </div>
+          <div className="flex flex-wrap sm:-m-4 -mx-4 md:space-y-0 space-y-6">
+            <Element
+              title="複雑さに立ち向かう軽量Spec駆動開発"
+              description="2026年3月25日投稿"
+              thumbnail={
+                <img
+                  src="https://cdn-ak.f.st-hatena.com/images/fotolife/s/sansantech/20260325/20260325130001.png"
+                  alt="blog-relay"
+                />
+              }
+              link="https://buildersbox.corp-sansan.com/entry/2026/03/25/130000"
+            />
+          </div>
+          <div className="text-center m-10">
             <h1>CyberAgent Developers Blog</h1>
             <div className="flex mt-6 justify-center">
               <div className="w-16 h-1 rounded-full bg-solarized-dark dark:bg-solarized-light inline-flex"></div>
