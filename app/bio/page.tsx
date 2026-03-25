@@ -27,14 +27,56 @@ export default function Bio() {
                   <div className="w-16 h-1 rounded-full bg-solarized-dark dark:bg-solarized-light inline-flex"></div>
                 </div>
                 <h3 className="my-2 text-2xl">
-                  2025年5月〜
+                  2026年1月〜 Master Data as a Service(MDaaS) 「
+                  <Link
+                    href={"https://buildersbox.corp-sansan.com/entry/2026/02/17/160000"}
+                    className={"link"}
+                    target={"_blank"}
+                  >
+                    SOCv2
+                  </Link>
+                  」の新規開発
+                </h3>
+                <p className="leading-relaxed">
+                  体制：1チーム、10人程度
+                  <br />
+                  役割：バックエンドエンジニア、設計～リリース担当
+                  <br />
+                  経験：Cloud Dataflow with Apache Beam を用いた Master Data pipeline の設計～リリース
+                  <br />
+                  技術：Go、GraphQL、wrench、yo、Cloud Dataflow、Cloud Spanner、Cloud Storage、Google Kubernetes Engine、BigQuery、cmux、Claude Code、Spec 駆動開発
+                </p>
+                <h3 className="mt-6 mb-2 text-2xl">
+                  2025年9月〜12月 データクオリティマネジメント「
+                  <Link
+                    href={"https://jp.sansan.com/sansan-data-intelligence/"}
+                    className={"link"}
+                    target={"_blank"}
+                  >
+                    Sansan Data Intelligence
+                  </Link>
+                  」の新規開発
+                </h3>
+                <p className="leading-relaxed">
+                  体制：1チーム、8人程度
+                  <br />
+                  役割：バックエンドエンジニア、設計～リリース担当
+                  <br />
+                  経験：ドメイン駆動開発に基づく Bounded Context と Aggregation および内在する Command-Query の設計～リリース
+                  <br />
+                  技術：Go、gRPC、yo、TypeScript、Next.js、Cloud Spanner、Cloud Pub/Sub、Cloud Storage、Google Kubernetes Engine、CloudFlare、Terraform、Argo CD、ドメイン駆動開発、Transactional Outbox パターン、Dev Container、Devbox、Cursor、Claude Code、Agent Skills、Agentic Coding
+                </p>
+                <h3 className="mt-6 mb-2 text-2xl">
+                  2025年5月〜8月 企業を識別できる率を上げるアルゴリズムの拡充
                 </h3>
                 <p className="leading-relaxed">
                   体制：4プロダクトチーム、30人程度
                   <br />
-                  役割：バックエンドエンジニア
+                  役割：バックエンドエンジニア、設計～リリース担当
                   <br />
-                  技術：Ruby、Ruby on Rails
+                  経験：ストラテジパターンを用いた企業識別アルゴリズムの設計～リリース、k6 負荷試験および Amazon Athena による識別率検証
+                  <br />
+                  技術：Ruby、Ruby on Rails、ストラテジパターン、k6、Amazon Athena、ADR、Cursor
                 </p>
               </div>
             </div>
@@ -59,7 +101,15 @@ export default function Bio() {
                   <div className="w-16 h-1 rounded-full bg-solarized-dark dark:bg-solarized-light inline-flex"></div>
                 </div>
                 <h3 className="my-2 text-2xl">
-                  2024年6月〜2025年4月 クリエイティブ即日配信を実現する「AD自動入稿」
+                  2024年6月〜2025年4月 クリエイティブ即日配信を実現する「
+                  <Link
+                    href={"https://www.cyberagent.co.jp/news/detail/id=32287"}
+                    className={"link"}
+                    target={"_blank"}
+                  >
+                    AD自動入稿
+                  </Link>
+                  」の新規開発
                 </h3>
                 <p className="leading-relaxed">
                   体制：4プロダクトチーム、30人程度
@@ -79,7 +129,7 @@ export default function Bio() {
                   >
                     極予測やりとりAI
                   </Link>
-                  」
+                  」の新規開発
                 </h3>
                 <p className="leading-relaxed">
                   体制：フロントエンドとバックエンドの2チーム、10人程度
@@ -88,7 +138,7 @@ export default function Bio() {
                   <br />
                   経験：リリーススコープとスケジュールの決定・開発要員確保・品質基準策定などビジネス価値を最大化させてプロジェクトを成功させるためのありとあらゆること（これにより組織の年間ベストルーキー賞を受賞）、組織へのスクラム導入
                   <br />
-                  技術：Go、Echo、MySQL、NoSQL、Redis、Auth0、Kubernetes、Digdag、TypeScript、Next.js、Vue.js、AWS、Pub/Sub、クリーンアーキテクチャ、Datadog
+                  技術：Go、Echo、MySQL、NoSQL、Redis、Terraform、Kubernetes、Auth0、Digdag、TypeScript、Next.js、Vue.js、AWS、Pub/Sub、クリーンアーキテクチャ、Datadog
                 </p>
                 <h3 className="mt-6 mb-2 text-2xl">
                   2024年4月〜2025年4月 エンジニア学習コミュニティ「
@@ -158,7 +208,7 @@ export default function Bio() {
                   >
                     Trylion PJ
                   </Link>
-                  」
+                  」の新規開発
                 </h3>
                 <p className="leading-relaxed">
                   体制：5マイクロサービスチーム、600人程度
@@ -167,7 +217,7 @@ export default function Bio() {
                   <br />
                   経験：非機能要件APIレスポンスタイム200msを満たすクエリチューニング・キャッシュ・並列化、価格計算の厳しい品質担保、夜間にバッチサーバを破壊
                   <br />
-                  技術：Kotlin、Spring、PostgreSQL、gRPC、Thymeleaf、TypeScript、マイクロサービス、AWS、クリーンアーキテクチャ、New
+                  技術：Kotlin、Spring、PostgreSQL、gRPC、Thymeleaf、TypeScript、マイクロサービス、AWS、Terraform、クリーンアーキテクチャ、New
                   Relic
                 </p>
                 <h3 className="mt-6 mb-2 text-2xl">
