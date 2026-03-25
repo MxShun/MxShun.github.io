@@ -16,9 +16,9 @@ export default function Home() {
               しゅん＠MxShun
             </h1>
             <p className="max-w-5xl py-12 mx-auto text-lg">
-              Sansan という会社で EM / 認定スクラムマスター / バックエンドエンジニアをしています 💻
+              Sansan という会社で バックエンドエンジニア をしています 💻
               <br />
-              Go (Echo) / Kotlin (Spring) / AWS が基本スキルセット 🐧
+              Go (Echo) / Kotlin (Spring) / AWS / EM / 認定スクラムマスター がスキルセット 🐧
               私個人へのご依頼等は X DM まで 📧
             </p>
           </div>
