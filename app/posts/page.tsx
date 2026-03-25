@@ -106,7 +106,7 @@ export default async function Posts() {
               description="2022年4月8日投稿"
               thumbnail={
                 <img
-                  src="https://cdn.image.st-hatena.com/image/scale/49395b11a6c3645262012a282f45aede2bb517ce/backend=imagemagick;height=1200;version=1;width=1200/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fdefault_entry_og_image%2F151513001%2F1531459019222627"
+                  src="https://ogimage.blog.st-hatena.com/17391345971618143605/13574176438080595848/1774341505"
                   alt="kotlin-empty-list-all"
                 />
               }
@@ -117,7 +117,7 @@ export default async function Posts() {
               description="2021年12月2日投稿"
               thumbnail={
                 <img
-                  src="https://cdn.image.st-hatena.com/image/scale/f44f022719288ef777369fd9c723ffc728b56539/backend=imagemagick;height=1200;version=1;width=1200/https%3A%2F%2Fstorage.googleapis.com%2Ftech-askul-co-jp%2Fimages%2F2021%2Faskul_shunm%2Frepl.png"
+                  src="https://ogimage.blog.st-hatena.com/17391345971618143605/13574176438038314770/1774341471"
                   alt="kotlin-dx"
                 />
               }
@@ -128,7 +128,7 @@ export default async function Posts() {
               description="2021年3月5日投稿"
               thumbnail={
                 <img
-                  src="https://cdn.image.st-hatena.com/image/scale/5d669ae9cd88ba58f5a32861ef6b1a1bada7de94/backend=imagemagick;height=1200;version=1;width=1200/https%3A%2F%2Fstorage.googleapis.com%2Ftech-askul-co-jp%2Fimages%2F2021%2Faskul_shunm%2Faskul_entrance.jpg"
+                  src="https://ogimage.blog.st-hatena.com/17391345971618143605/26006613698705585/1774341621"
                   alt="askul-new-grad"
                 />
               }
