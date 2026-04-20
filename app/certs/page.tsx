@@ -9,6 +9,18 @@ export default function Certs() {
         <div className="container px-5 py-5 mx-auto">
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <Element
+              title="Google Cloud Associate Cloud Engineer Certification"
+              description="2026年4月取得"
+              thumbnail={
+                <img
+                  src="/google-cloud-associate-cloud-engineer-certification.png"
+                  alt="google-cloud-associate-cloud-engineer-certification"
+                  className={"max-w-40 max-h-40"}
+                />
+              }
+              link="https://www.credly.com/badges/0f653f1e-fd91-443c-b57e-59aede2d1eba"
+            />
+            <Element
               title="GitHub Actions Certification"
               description="2025年3月取得"
               thumbnail={
