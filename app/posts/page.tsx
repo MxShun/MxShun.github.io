@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Element from "@/components/Element";
 import Header from "@/components/Header";
 import { getQiitaPosts } from "@/features/qiita/getUserItems";
@@ -23,9 +24,11 @@ export default async function Posts() {
               title="複雑さに立ち向かう軽量Spec駆動開発"
               description="2026年3月25日投稿"
               thumbnail={
-                <img
+                <Image
                   src="https://cdn-ak.f.st-hatena.com/images/fotolife/s/sansantech/20260325/20260325130001.png"
                   alt="blog-relay"
+                  width={320}
+                  height={168}
                 />
               }
               link="https://buildersbox.corp-sansan.com/entry/2026/03/25/130000"
@@ -42,9 +45,11 @@ export default async function Posts() {
               title="cURLは成功しGo HTTPリクエストは失敗する事象の裏にある仕様"
               description="2025年1月17日投稿"
               thumbnail={
-                <img
+                <Image
                   src="https://developers.cyberagent.co.jp/blog/wp-content/uploads/2024/12/17db55667deaaf8db8a6f6cac09f8a72-3.png"
                   alt="curl-go-http"
+                  width={320}
+                  height={168}
                 />
               }
               link="https://developers.cyberagent.co.jp/blog/archives/53785/"
@@ -53,9 +58,11 @@ export default async function Posts() {
               title="GoのEchoフレームワークでrequest bodyとresponse bodyをログ出力する"
               description="2024年11月28日投稿"
               thumbnail={
-                <img
+                <Image
                   src="https://developers.cyberagent.co.jp/blog/wp-content/uploads/2024/11/17db55667deaaf8db8a6f6cac09f8a72-1.png"
                   alt="middleware"
+                  width={320}
+                  height={168}
                 />
               }
               link="https://developers.cyberagent.co.jp/blog/archives/50538/"
@@ -64,9 +71,11 @@ export default async function Posts() {
               title="疎結合アーキテクチャにおける ogen-go/ogen によるプロデューササイドリクエストバリデーション"
               description="2024年10月4日投稿"
               thumbnail={
-                <img
+                <Image
                   src="https://developers.cyberagent.co.jp/blog/wp-content/uploads/2024/09/thumbnail-1.png"
                   alt="ogen"
+                  width={320}
+                  height={168}
                 />
               }
               link="https://developers.cyberagent.co.jp/blog/archives/49986/"
@@ -75,9 +84,11 @@ export default async function Posts() {
               title="Go製DBマイグレーションツール liamstask/goose から pressly/goose へのスムーズな移行"
               description="2023年3月10日投稿"
               thumbnail={
-                <img
+                <Image
                   src="https://developers.cyberagent.co.jp/blog/wp-content/uploads/2023/03/17db55667deaaf8db8a6f6cac09f8a72-1.png"
                   alt="pressly-goose"
+                  width={320}
+                  height={168}
                 />
               }
               link="https://developers.cyberagent.co.jp/blog/archives/41187/"
@@ -86,9 +97,11 @@ export default async function Posts() {
               title="私がやった Amazon S3 コストカット全ステップ"
               description="2022年12月23日投稿"
               thumbnail={
-                <img
+                <Image
                   src="https://developers.cyberagent.co.jp/blog/wp-content/uploads/2022/12/b974697ce993dc618d0ec04567bfca05.png"
                   alt="s3-cost"
+                  width={320}
+                  height={168}
                 />
               }
               link="https://developers.cyberagent.co.jp/blog/archives/38950/"
@@ -105,9 +118,11 @@ export default async function Posts() {
               title="Kotlin の emptyList.all { false } が true になるということ"
               description="2022年4月8日投稿"
               thumbnail={
-                <img
+                <Image
                   src="https://ogimage.blog.st-hatena.com/17391345971618143605/13574176438080595848/1774341505"
                   alt="kotlin-empty-list-all"
+                  width={320}
+                  height={168}
                 />
               }
               link="https://tech.askul.co.jp/entry/2022/04/08/090000"
@@ -116,9 +131,11 @@ export default async function Posts() {
               title="Kotlin で DX がめちゃくちゃ改善されました"
               description="2021年12月2日投稿"
               thumbnail={
-                <img
+                <Image
                   src="https://ogimage.blog.st-hatena.com/17391345971618143605/13574176438038314770/1774341471"
                   alt="kotlin-dx"
+                  width={320}
+                  height={168}
                 />
               }
               link="https://tech.askul.co.jp/entry/2021/12/02/090000"
@@ -127,9 +144,11 @@ export default async function Posts() {
               title="新人エンジニア(新卒)が語るアスクルの魅力"
               description="2021年3月5日投稿"
               thumbnail={
-                <img
+                <Image
                   src="https://ogimage.blog.st-hatena.com/17391345971618143605/26006613698705585/1774341621"
                   alt="askul-new-grad"
+                  width={320}
+                  height={168}
                 />
               }
               link="https://tech.askul.co.jp/entry/2021/03/05/110000"
@@ -146,9 +165,11 @@ export default async function Posts() {
               title="新卒入社3カ月目にしてプロジェクトリーダーをした話。"
               description="2020年7月17日投稿"
               thumbnail={
-                <img
+                <Image
                   src="https://s.yimg.jp/images/tecblog/2020-H1/hack14/ogp.png"
                   alt="project-leader"
+                  width={320}
+                  height={168}
                 />
               }
               link="https://techblog.yahoo.co.jp/entry/2020071730014127/"
@@ -166,7 +187,7 @@ export default async function Posts() {
                 key={index} // NOTE: コンポーネント内でリストコンポーネントをレンダリングする場合に必要
                 title={post.title}
                 description={`${post.createdAt}投稿`}
-                thumbnail={<img src={post.thumbnailUrl} alt={post.title} />}
+                thumbnail={<Image src={post.thumbnailUrl} alt={post.title} width={320} height={168} />}
                 link={post.url}
               />
             ))}

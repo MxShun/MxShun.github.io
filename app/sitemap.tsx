@@ -1,24 +1,25 @@
 import type { MetadataRoute } from "next"
 import fs from "fs";
 
+export const dynamic = "force-static";
+
 const siteUrl = "https://mxshun.github.io";
 const topDirName = "app";
 const pageFileName = "page.tsx";
 
-export const dynamic = "force-static";
-
-export default function sitemap(): MetadataRoute.Sitemap {
-  return getPageInfoList(topDirName, []);
+type site = {
+  url: string;
+  lastModified: Date;
 }
 
-const getUrlObjList = (path: string) => {
+const buildSite = (path: string) => {
   return {
     url: siteUrl + path.replace(new RegExp(`${topDirName}|/${pageFileName}`, "g"), ""),
     lastModified: fs.statSync(path).mtime
   };
 };
 
-const getPageInfoList = (pathName: string, list: any[]) => {
+const listSites = (pathName: string, sites: site[]) => {
   const dirents = fs.readdirSync(pathName, { withFileTypes: true });
 
   for (const dirent of dirents) {
@@ -26,9 +27,13 @@ const getPageInfoList = (pathName: string, list: any[]) => {
 
     const currentPath = `${pathName}/${dirent.name}`;
 
-    if (dirent.isDirectory()) getPageInfoList(currentPath, list);
-    if (dirent.name === pageFileName) list.push(getUrlObjList(currentPath));
+    if (dirent.isDirectory()) listSites(currentPath, sites);
+    if (dirent.name === pageFileName) sites.push(buildSite(currentPath));
   }
 
-  return list;
+  return sites;
 };
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  return listSites(topDirName, []);
+}

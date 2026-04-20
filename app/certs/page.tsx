@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Element from "@/components/Element";
 import Header from "@/components/Header";
 
@@ -12,10 +13,12 @@ export default function Certs() {
               title="Google Cloud Associate Cloud Engineer Certification"
               description="2026年4月取得"
               thumbnail={
-                <img
+                <Image
                   src="/google-cloud-associate-cloud-engineer-certification.png"
                   alt="google-cloud-associate-cloud-engineer-certification"
                   className={"max-w-40 max-h-40"}
+                  width={603}
+                  height={603}
                 />
               }
               link="https://www.credly.com/badges/0f653f1e-fd91-443c-b57e-59aede2d1eba"
@@ -24,10 +27,12 @@ export default function Certs() {
               title="GitHub Actions Certification"
               description="2025年3月取得"
               thumbnail={
-                <img
+                <Image
                   src="/github-actions-certification.png"
                   alt="github-actions-certification"
                   className={"max-w-40 max-h-40"}
+                  width={608}
+                  height={608}
                 />
               }
               link="https://www.credly.com/badges/a6502a45-4c4e-457e-82c3-c8c03b1ba0d6"
@@ -36,10 +41,12 @@ export default function Certs() {
               title="AWS Certified SysOps Administrator - Associate"
               description="2024年3月取得"
               thumbnail={
-                <img
+                <Image
                   src="/aws-certified-sysops-administrator-associate.png"
                   alt="aws-certified-sysops-administrator-associate"
                   className={"max-w-40 max-h-40"}
+                  width={600}
+                  height={600}
                 />
               }
               link="https://www.credly.com/badges/9d79f861-4d09-4449-ad06-79eb65f60719"
@@ -48,10 +55,12 @@ export default function Certs() {
               title="Certified ScrumMaster"
               description="2024年2月取得"
               thumbnail={
-                <img
+                <Image
                   src="/sa-csm-600.png"
                   alt="sa-csm-600"
                   className={"max-w-40 max-h-40"}
+                  width={600}
+                  height={600}
                 />
               }
               link="https://bcert.me/skuxdamxs"
@@ -60,10 +69,12 @@ export default function Certs() {
               title="AWS Certified Developer - Associate"
               description="2022年1月取得"
               thumbnail={
-                <img
+                <Image
                   src="/aws-certified-developer-associate.png"
                   alt="aws-certified-developer-associate"
                   className={"max-w-40 max-h-40"}
+                  width={600}
+                  height={600}
                 />
               }
               link="https://www.credly.com/badges/b6281cda-7e7f-46b6-8fe2-415966db2831"
@@ -72,10 +83,12 @@ export default function Certs() {
               title="AWS Certified Solutions Architect - Associate"
               description="2021年7月取得"
               thumbnail={
-                <img
+                <Image
                   src="/aws-certified-solutions-architect-associate.png"
                   alt="aws-certified-solutions-architect-associate"
                   className={"max-w-40 max-h-40"}
+                  width={600}
+                  height={600}
                 />
               }
               link="https://www.credly.com/badges/1c36307b-bf80-4b19-9488-29e971a5acb5"
@@ -84,10 +97,12 @@ export default function Certs() {
               title="Professional Scrum Master I"
               description="2021年3月取得"
               thumbnail={
-                <img
+                <Image
                   src="/professional-scrum-master-i-psm-i.png"
                   alt="professional-scrum-master-i-psm-i"
                   className={"max-w-40 max-h-40"}
+                  width={600}
+                  height={600}
                 />
               }
               link="https://www.credly.com/badges/82781d1f-9185-4fde-9779-6496876908c5"
@@ -96,10 +111,12 @@ export default function Certs() {
               title="Oracle Certified Java Programmer, Gold SE 8"
               description="2021年1月取得"
               thumbnail={
-                <img
+                <Image
                   src="/oracle-certified-java-programmer-gold-se-8-oracle-certified-professional-java-se-8-programmer-jpn.png"
                   alt="oracle-certified-java-programmer-gold-se-8-oracle-certified-professional-java-se-8-programmer-jpn"
                   className={"max-w-40 max-h-40"}
+                  width={600}
+                  height={600}
                 />
               }
               link="https://www.credly.com/badges/33da4733-6f66-431d-b2b4-946557967ce7"
@@ -108,10 +125,12 @@ export default function Certs() {
               title="Oracle Certified Java Programmer, Silver SE 8"
               description="2020年8月取得"
               thumbnail={
-                <img
+                <Image
                   src="/oracle-certified-java-programmer-silver-se-8-oracle-certified-associate-java-se-8-programmer-jpn.png"
                   alt="oracle-certified-java-programmer-silver-se-8-oracle-certified-associate-java-se-8-programmer-jpn"
                   className={"max-w-40 max-h-40"}
+                  width={600}
+                  height={600}
                 />
               }
               link="https://www.credly.com/badges/05edcaa5-7fa7-4d45-9f09-fa827beec5c1"

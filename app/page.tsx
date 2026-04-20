@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Header from "@/components/Header";
 
 export default function Home() {
@@ -7,10 +8,12 @@ export default function Home() {
       <div className="relative z-20 flex h-4/5 items-center">
         <div className="container flex-col justify-between mx-auto">
           <div className="text-center">
-            <img
+            <Image
               src="/mxshun.jpg"
-              className="mx-auto rounded-full w-36"
               alt="mxshun"
+              className="mx-auto rounded-full w-36"
+              width={313}
+              height={313}
             />
             <h1 className="my-6 sm:text-3xl text-2xl font-bold">
               しゅん＠MxShun

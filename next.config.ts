@@ -1,6 +1,6 @@
-// Static Exports https://nextjs.org/docs/app/building-your-application/deploying/static-exports
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from 'next'
+
+const nextConfig: NextConfig = {
   output: "export",
 
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
@@ -11,6 +11,12 @@ const nextConfig = {
 
   // Optional: Change the output directory `out` -> `dist`
   distDir: "out",
+
+  // NOTE: disable next/image optimization for "next dev" 
+  // see https://nextjs.org/docs/app/api-reference/components/image#unoptimized
+  images: { 
+    unoptimized: true
+  },
 };
 
 module.exports = nextConfig;

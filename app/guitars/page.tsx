@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 
@@ -26,10 +27,12 @@ export default function Guitars() {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full flex flex-col text-center items-center">
               <div className="flex-grow">
                 <figure className={"relative"}>
-                  <img
+                  <Image
                     src="/fender-mod-shop-jazzmaster-23.jpg"
                     alt="fender-mod-shop-jazzmaster-23"
                     className="max-w-96 max-h-96 object-cover object-center"
+                    width={288}
+                    height={384}
                   />
                   <figcaption
                     className={
@@ -50,10 +53,12 @@ export default function Guitars() {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full flex flex-col text-center items-center">
               <div className="flex-grow">
                 <figure className={"relative"}>
-                  <img
+                  <Image
                     src="/gibson-limited-explorer-gothic-ii-06.jpg"
                     alt="gibson-limited-explorer-gothic-ii-06"
                     className="max-w-96 max-h-96 object-cover object-center"
+                    width={288}
+                    height={384}
                   />
                   <figcaption
                     className={
@@ -74,10 +79,12 @@ export default function Guitars() {
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full flex flex-col text-center items-center">
               <div className="flex-grow">
                 <figure className={"relative"}>
-                  <img
+                  <Image
                     src="/epiphone-japan-les-paul-standard-lps-85f-99.jpg"
                     alt="epiphone-japan-les-paul-standard-lps-85f-99.jpg"
                     className="max-w-96 max-h-96 object-cover object-center"
+                    width={288}
+                    height={384}
                   />
                   <figcaption
                     className={

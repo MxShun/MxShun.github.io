@@ -5,7 +5,7 @@ import { formatDate } from "@/utils/dates";
 type QiitaPost = {
   title: string;
   url: string;
-  thumbnailUrl?: string;
+  thumbnailUrl: string;
   createdAt: string;
 };
 
@@ -17,12 +17,12 @@ export const getQiitaPosts = async () => {
   ).json();
 
   return (await Promise.all(
-    items.map(async (item: any) => {
+    items.map(async (item: QiitaPost) => {
       return {
         title: item.title,
         url: item.url,
         thumbnailUrl: await getThumbnailUrl(item.url),
-        createdAt: formatDate(item.created_at),
+        createdAt: formatDate(item.createdAt),
       };
     }),
   )) as QiitaPost[];
@@ -34,7 +34,7 @@ const getThumbnailUrl = async (url: string) => {
     /<meta property="og:image" content="(.*?)"/g,
   );
 
-  return ogImages.length > 0 ? decodeThumbnailUrl(ogImages[0]) : undefined;
+  return ogImages.length > 0 ? decodeThumbnailUrl(ogImages[0]) : "";
 };
 
 const decodeThumbnailUrl = (url: string) => {

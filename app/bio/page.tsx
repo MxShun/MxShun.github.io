@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 
@@ -16,9 +17,11 @@ export default function Bio() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-20 h-20 bg-solarized-dark dark:bg-solarized-light text-solarized-dark dark:text-solarized-light rounded-full inline-flex items-center justify-center">
-                <img
+                <Image
                   src="https://jp.corp-sansan.com/favicon.ico"
                   alt="sansan"
+                  width={32}
+                  height={32}
                 />
               </div>
               <div className="flex-grow sm:pl-6">
@@ -90,9 +93,11 @@ export default function Bio() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-20 h-20 bg-solarized-dark dark:bg-solarized-light text-solarized-dark dark:text-solarized-light rounded-full inline-flex items-center justify-center">
-                <img
+                <Image
                   src="https://www.cyberagent.co.jp/favicon.ico"
                   alt="cyberagent"
+                  width={32}
+                  height={32}
                 />
               </div>
               <div className="flex-grow sm:pl-6">
@@ -190,7 +195,12 @@ export default function Bio() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-20 h-20 bg-solarized-dark dark:bg-solarized-light text-solarized-dark dark:text-solarized-light rounded-full inline-flex items-center justify-center">
-                <img src="https://www.askul.co.jp/favicon.ico" alt="askul" />
+                <Image
+                  src="https://www.askul.co.jp/favicon.ico"
+                  alt="askul"
+                  width={32}
+                  height={32}
+                />
               </div>
               <div className="flex-grow sm:pl-6">
                 <h1>アスクル株式会社</h1>
@@ -245,9 +255,11 @@ export default function Bio() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-20 h-20 bg-solarized-dark dark:bg-solarized-light text-solarized-dark dark:text-solarized-light rounded-full inline-flex items-center justify-center">
-                <img
+                <Image
                   src="https://www.sendai-nct.ac.jp/favicon.ico"
                   alt="sendai-nct"
+                  width={32}
+                  height={32}
                 />
               </div>
               <div className="flex-grow sm:pl-6">
