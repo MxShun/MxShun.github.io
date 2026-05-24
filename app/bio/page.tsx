@@ -8,7 +8,7 @@ export default function Bio() {
       <Header activePage="/bio" />
       <section>
         <div className="container py-5 mx-auto flex flex-wrap">
-        <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+          <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div className="h-full w-1 bg-solarized-dark dark:bg-solarized-light pointer-events-none"></div>
             </div>
@@ -32,7 +32,9 @@ export default function Bio() {
                 <h3 className="my-2 text-2xl">
                   2026年1月〜 Master Data as a Service(MDaaS) 「
                   <Link
-                    href={"https://buildersbox.corp-sansan.com/entry/2026/02/17/160000"}
+                    href={
+                      "https://buildersbox.corp-sansan.com/entry/2026/02/17/160000"
+                    }
                     className={"link"}
                     target={"_blank"}
                   >
@@ -45,9 +47,13 @@ export default function Bio() {
                   <br />
                   役割：バックエンドエンジニア、設計～リリース担当
                   <br />
-                  経験：Cloud Dataflow with Apache Beam を用いた Master Data pipeline の設計～リリース
+                  経験：Cloud Dataflow with Apache Beam を用いた data pipeline
+                  の設計～リリース
                   <br />
-                  技術：Go、GraphQL、wrench、yo、Cloud Dataflow、Cloud Spanner、Cloud Storage、Google Kubernetes Engine、BigQuery、cmux、Claude Code、Spec 駆動開発
+                  技術：Go、GraphQL、Cloud Dataflow with Apache Beam、Cloud
+                  Spanner、Google Kubernetes
+                  Engine、BigQuery、OpenTelemetry、ADR(Architecture Decision
+                  Record)、cmux、Claude Code、Spec 駆動開発
                 </p>
                 <h3 className="mt-6 mb-2 text-2xl">
                   2025年9月〜12月 データクオリティマネジメント「
@@ -65,9 +71,15 @@ export default function Bio() {
                   <br />
                   役割：バックエンドエンジニア、設計～リリース担当
                   <br />
-                  経験：ドメイン駆動開発に基づく Bounded Context と Aggregation および内在する Command-Query の設計～リリース
+                  経験：ドメイン駆動開発に基づく Bounded Context と Aggregation
+                  および内在する Command-Query の設計～リリース
                   <br />
-                  技術：Go、gRPC、yo、TypeScript、Next.js、Cloud Spanner、Cloud Pub/Sub、Cloud Storage、Google Kubernetes Engine、CloudFlare、Terraform、Argo CD、ドメイン駆動開発、Transactional Outbox パターン、Dev Container、Devbox、Cursor、Claude Code、Agent Skills、Agentic Coding
+                  技術：Go、Connect、TypeScript、Next.js(App Router)、Cloud
+                  Spanner、Cloud Pub/Sub、Cloud Storage、Google Kubernetes
+                  Engine、CloudFlare、Terraform、Argo
+                  CD、ドメイン駆動開発、Transactional Outbox パターン、Dev
+                  Container、ADR(Architecture Decision Record)、Cursor、Claude
+                  Code、Agent Skills、Agentic Coding
                 </p>
                 <h3 className="mt-6 mb-2 text-2xl">
                   2025年5月〜8月 企業を識別できる率を上げるアルゴリズムの拡充
@@ -77,9 +89,11 @@ export default function Bio() {
                   <br />
                   役割：バックエンドエンジニア、設計～リリース担当
                   <br />
-                  経験：ストラテジパターンを用いた企業識別アルゴリズムの設計～リリース、k6 負荷試験および Amazon Athena による識別率検証
+                  経験：ストラテジパターンを用いた企業識別アルゴリズムの設計～リリース、k6
+                  負荷試験および Amazon Athena による識別率検証
                   <br />
-                  技術：Ruby、Ruby on Rails、ストラテジパターン、k6、Amazon Athena、ADR、Cursor
+                  技術：Ruby、Ruby on Rails、ストラテジパターン、k6、Amazon
+                  Athena、ADR(Architecture Decision Record)、Cursor
                 </p>
               </div>
             </div>
@@ -126,7 +140,8 @@ export default function Bio() {
                   技術：スキーマ駆動開発、AWS、疎結合、Pub/Sub、イベント駆動アーキテクチャ
                 </p>
                 <h3 className="mt-6 mb-2 text-2xl">
-                  2023年3月〜2025年4月 AIによるクリエイティブ確認サポートシステム「
+                  2023年3月〜2025年4月
+                  AIによるクリエイティブ確認サポートシステム「
                   <Link
                     href={"https://www.cyberagent.co.jp/news/detail/id=29953"}
                     className={"link"}
@@ -143,12 +158,15 @@ export default function Bio() {
                   <br />
                   経験：リリーススコープとスケジュールの決定・開発要員確保・品質基準策定などビジネス価値を最大化させてプロジェクトを成功させるためのありとあらゆること（これにより組織の年間ベストルーキー賞を受賞）、組織へのスクラム導入
                   <br />
-                  技術：Go、Echo、MySQL、NoSQL、Redis、Terraform、Kubernetes、Auth0、Digdag、TypeScript、Next.js、Vue.js、AWS、Pub/Sub、クリーンアーキテクチャ、Datadog
+                  技術：Go、Echo、MySQL、NoSQL、Redis、Terraform、Kubernetes、Auth0、Digdag、TypeScript、Next.js(App
+                  Router)、Vue.js、AWS、Pub/Sub、クリーンアーキテクチャ、Datadog
                 </p>
                 <h3 className="mt-6 mb-2 text-2xl">
                   2024年4月〜2025年4月 エンジニア学習コミュニティ「
                   <Link
-                    href={"https://www.cyberagent.co.jp/careers/special/students/tech_lounge/"}
+                    href={
+                      "https://www.cyberagent.co.jp/careers/special/students/tech_lounge/"
+                    }
                     className={"link"}
                     target={"_blank"}
                   >
