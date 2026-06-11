@@ -47,8 +47,10 @@ export default function Bio() {
                   <br />
                   役割：バックエンドエンジニア、設計～リリース担当
                   <br />
-                  経験：Cloud Dataflow with Apache Beam を用いた data pipeline
-                  の設計～リリース
+                  経験：Apache Beam
+                  を用いたデータパイプラインの設計～リリース、Spanner Graph
+                  で表現したグラフモデルを Relationship
+                  で辿るパフォーマンスチューニング、SLI/SLO 策定のリード
                   <br />
                   技術：Go、GraphQL、Cloud Dataflow with Apache Beam、Cloud
                   Spanner、Google Kubernetes
@@ -71,8 +73,8 @@ export default function Bio() {
                   <br />
                   役割：バックエンドエンジニア、設計～リリース担当
                   <br />
-                  経験：ドメイン駆動開発に基づく Bounded Context と Aggregation
-                  および内在する Command-Query の設計～リリース
+                  経験：DDD に基づく Bounded Context と Aggregate および内在する
+                  Command Query の設計～リリース
                   <br />
                   技術：Go、Connect、TypeScript、Next.js(App Router)、Cloud
                   Spanner、Cloud Pub/Sub、Cloud Storage、Google Kubernetes
@@ -82,15 +84,15 @@ export default function Bio() {
                   Code、Agent Skills、Agentic Coding
                 </p>
                 <h3 className="mt-6 mb-2 text-2xl">
-                  2025年5月〜8月 企業を識別できる率を上げるアルゴリズムの拡充
+                  2025年5月〜8月 Sansan や Eight
+                  が利用する「名寄せ・名刺識別基盤」の保守
                 </h3>
                 <p className="leading-relaxed">
                   体制：4プロダクトチーム、30人程度
                   <br />
                   役割：バックエンドエンジニア、設計～リリース担当
                   <br />
-                  経験：ストラテジパターンを用いた企業識別アルゴリズムの設計～リリース、k6
-                  負荷試験および Amazon Athena による識別率検証
+                  経験：企業識別率を上げる識別アルゴリズムの設計・開発
                   <br />
                   技術：Ruby、Ruby on Rails、ストラテジパターン、k6、Amazon
                   Athena、ADR(Architecture Decision Record)、Cursor
@@ -135,7 +137,7 @@ export default function Bio() {
                   <br />
                   役割：プロジェクトリーダー、要件定義～リリース一貫して担当
                   <br />
-                  経験：アーキテクチャの決定、リリーススコープとスケジュールの決定・品質基準策定などビジネス価値を最大化させてプロジェクトを成功させるためのありとあらゆること
+                  経験：非機能要件を満たすインフラアーキテクチャ設計、リリーススコープとスケジュールの決定・品質基準策定などビジネス価値を最大化させてプロジェクトを成功させるためのありとあらゆること
                   <br />
                   技術：スキーマ駆動開発、AWS、疎結合、Pub/Sub、イベント駆動アーキテクチャ
                 </p>
