@@ -10,6 +10,19 @@ export default function Talks() {
         <div className="container px-5 py-5 mx-auto">
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <Element
+              title="layerx.go #6"
+              description="2026年11月9日開催"
+              thumbnail={
+                <Image
+                  src="https://media.connpass.com/thumbs/fb/48/fb48cbf39eec9face927d5de12dbf7a0.png"
+                  alt="layerx-go"
+                  width={320}
+                  height={140}
+                />
+              }
+              link="https://layerx.connpass.com/event/408206/"
+            />
+            <Element
               title="生成AI活用による広告運用効率化・自動化の追求"
               description="2023年11月22日開催"
               thumbnail={
